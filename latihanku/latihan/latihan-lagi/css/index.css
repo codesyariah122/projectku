@@ -1,0 +1,32 @@
+.card-header {
+	font-family: 'AlQalam';
+}
+.ayat h1 h2 h3 {
+	font-size: 35px !important;
+	font-family: 'AlQalam';
+}
+
+.circle-number {
+font-family: 'AlQalam';
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 1.7rem !important;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.5em;
+  margin-right: 5px;
+  text-align: center;
+  width: 1.6em; 
+}
+
+.disabled{
+	cursor: not-allowed!important;
+}
+
+.page-item{
+	cursor: pointer;
+}
+

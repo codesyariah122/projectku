@@ -1,0 +1,94 @@
+.ayat h1 h2 h3 {
+  font-size: 35px !important;
+  font-family: 'AlQalam';
+}
+
+.circle-number {
+font-family: 'AlQalam';
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 1.7rem !important;
+  border-radius: 0.8em;
+  -moz-border-radius: 0.8em;
+  -webkit-border-radius: 0.8em;
+  color: #ffffff;
+  display: inline-block;
+  font-weight: bold;
+  line-height: 1.5em;
+  margin-right: 5px;
+  text-align: center;
+  width: 1.6em; 
+}
+.loader{
+  margin-top: -3rem;
+  margin-left: -9rem;
+}
+.loader img{
+  width: 400px;
+  height: 250px;
+}
+
+.loader2{
+  margin-top: 3rem;
+  margin-left: 3rem;  
+}
+
+.loader2 img{
+  width: 80px;
+  height: 50px;
+}
+
+.pagination{
+  margin-top: -2rem;
+}
+
+.disabled{
+  cursor: not-allowed !important;
+}
+
+.page-item{
+  cursor: pointer;
+}
+
+/* polaroid1 */
+.polaroid {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+  color: moccasin;
+  position: relative;
+  margin-bottom: 5rem;
+  margin-top: 2rem;
+}
+
+.polaroid-body h2 {
+  padding: 25px;
+  color: black;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.polaroid p {
+  color: black;
+  text-indent: 0px;
+  margin-top: 1.5rem;
+  font-weight: 400;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.codesyariah {
+  text-transform: uppercase;
+  font-family: "Lemon/Milk Regular";
+  color: tomato;
+}
+
+.underline:after {
+  content: "";
+  display: block;
+  margin: auto;
+  position: relative;
+  margin-bottom: 2rem;
+  margin-top: 0.8rem;
+  width: 100px;
+  height: 2px;
+  background: #ff634e;
+}
