@@ -118,6 +118,11 @@ function desktopScroll(scrollTop){
 											'top': 0
 										})
 									}
+								}else{
+									$('#points--layanan-jasa').css({
+										'position': '',
+										'top': 0
+									})
 								}
 							}
 						}
