@@ -525,19 +525,21 @@ main > nav {
        /*padding: 10px;*/
        color: #737576;
        text-align: center;
+       margin-top: -15rem;
     }
     #footer-data img{
      width: 110px;
      height: 50px;
-     margin-top: 2rem;
+     margin-top: 3rem;
+     margin-left: 53rem;
     }
     /*end footer*/
     /*mobile*/
     @media only screen and (max-device-width: 812px) {
       /* Sidebar Navigation */
       .section-nav {
-        margin-left: -5.5rem;
-        width: 85.5%;
+        margin-left: -.5rem;
+        width: 100%;
       }
 
       .jumbotron-content {
@@ -654,17 +656,25 @@ main > nav {
       margin-top: 2rem;
       width: 100%;
     }
-    #footer-data{
-      background: rgba(209, 211, 213, 0.5);
-      box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.9);
-      margin-top: 15rem!important;
-      height: 10%;
+     #footer-data{
+      /*background: rgba(209, 211, 213, 0.5);
+      box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.9);*/
+      margin-top: 5rem;
+      height: 15vh;
       color: #fff;
+
     }
-     #footer-data h1, h2{
-       padding: 10px;
+    #footer-data h1, h2{
+       /*padding: 10px;*/
        color: #737576;
        text-align: center;
+       margin-top: -5rem;
+    }
+    #footer-data img{
+     width: 110px;
+     height: 50px;
+     margin-top: 15rem;
+     margin-left: 30rem;
     }
 
   }
