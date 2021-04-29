@@ -111,7 +111,7 @@ main > nav {
   /** enlarge the sections for this demo, so that we have a long scrollable page **/
   section {
     padding-bottom: 10rem;
-    width: 85%;
+    width: 95%;
   }
   section, h2{
     font-family:'Poiret One' !important;
@@ -525,13 +525,11 @@ main > nav {
        /*padding: 10px;*/
        color: #737576;
        text-align: center;
-       margin-top: -15rem;
     }
     #footer-data img{
      width: 110px;
      height: 50px;
      margin-top: 3rem;
-     margin-left: 53rem;
     }
     /*end footer*/
     /*mobile*/
