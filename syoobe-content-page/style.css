@@ -1,0 +1,670 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@font-face {
+  font-family: "SpringSakura";
+  src: local("SpringSakura"), url("https://codesyariah122.github.io/assets/fonts/SpringSakura-3z1m8.woff") format("woff");
+}
+@font-face {
+  font-family: "Reey Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Reey Regular"), url("../fonts/Reey-Regular.woff") format("woff");
+}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+/* 1. Enable smooth scrolling */
+html {
+  scroll-behavior: smooth!important;
+}
+
+/* 2. Make nav sticky */
+main > nav {
+  position: sticky;
+  top: 2rem;
+  align-self: start;
+}
+
+
+
+/* 3. ScrollSpy active styles (see JS tab for activation) */
+/*.section-nav li.active > a {
+  color: #333;
+  font-weight: 500;
+  }*/
+  .section-nav li .active > a {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 500;
+  }
+  .active{
+    color: #444;
+    font-weight: 500;
+  }
+  .active-path{
+    border-left: 3px solid rgba(0, 0, 0, 0.3);
+    /*height: 107px;*/
+    /*position:absolute;*/
+    /*left: 50%;*/
+  }
+  .visible{
+    visibility: visible;
+  }
+  .hidden{
+    visibility: hidden;
+  }
+
+  /* Sidebar Navigation */
+  .section-nav {
+    left: 3em;
+    top: 5em;
+    padding: 1em;
+    width: 14em;
+    padding-left: 0;
+    border-left: 1px solid #efefef;
+    background: rgba(188, 191, 198, 0.5);
+    margin-left: 1.7rem;
+  }
+
+  .section-nav a {
+    text-decoration: none;
+    display: block;
+    padding: .125rem 0;
+    color: #B3B6B8;
+    transition: all 50ms ease-in-out; /* Ã°Å¸â€™Â¡ This small transition makes setting of the active state smooth */
+    font-size: 18px;
+  }
+
+  .section-nav a:hover,
+  .section-nav a:focus {
+    color: #666;
+  }
+
+  /** Poor man's reset **/
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  }
+
+  ul, ol {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  li {
+    margin-left: 1rem;
+    padding: .5rem;
+  }
+
+  h1 {
+    font-weight: 300;
+  }
+
+  /** page layout **/
+  main {
+    display: grid;
+    grid-template-columns: 1fr 15em;
+    max-width: 100em;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  /** enlarge the sections for this demo, so that we have a long scrollable page **/
+  section {
+    padding-bottom: 10rem;
+    width: 85%;
+  }
+  section, h2{
+    font-family:'Poiret One' !important;
+    font-weight: 700;
+  }
+  section p{
+    text-align: justify;
+    font-size: 18px;
+  }
+
+  /*authentication*/
+  #authentication{
+    width: 95%;
+  }
+  /*end authentication*/
+
+  /*Points*/
+  #points{
+    width: 95%;
+    margin-top: 5rem;
+  }
+  /*points root*/
+  #points--root {
+    margin-top: 7rem;
+    align-items: center;
+    width: 95%;
+  }
+  /*end points root*/
+
+  /*points categories*/
+  #points--categories{
+    align-items: center;
+    width: 95%;
+  }
+  /*end categories*/
+
+  /*points ponsel*/
+ /* #points--ponsel{
+    position: sticky;
+    top: 35;
+  }
+
+  #points--elektronik {
+    position: sticky;
+    top: 35;
+    }*/
+    /*end ponsel*/
+
+    /*points elektronik*/
+  /*#points--elektronik{
+    width: 95%;
+    }*/
+    /*end ponsel*/
+    /*end Points*/
+
+    /* Custom CSS With PujiErmanto*/
+    /* jumbotron */
+    .jumbotron-content {
+     background-size: cover;
+     height: 540px; 
+     text-align: center;
+     position: relative;
+     background-color: #17234E;
+     min-height: 100vh;
+     /*width: 100%;*/
+     background-repeat: no-repeat;
+     background-position: center;
+     -webkit-background-size: cover;
+     background-size: cover;
+     position: relative;
+     /*clip-path: polygon(50% 0%, 100% 0, 100% 35%, 100% 70%, 95% 89%, 83% 98%, 21% 100%, 0 100%, 0% 35%, 0 0);*/
+     clip-path: polygon(50% 0%, 100% 0, 100% 89%, 92% 92%, 84% 94%, 50% 100%, 0 100%, 0 59%, 0 0);
+   }
+
+   .jumbotron-content .container {
+    z-index: 1;
+    position: relative;
+    margin-top: 5rem;
+  }
+
+  .jumbotron-content::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+    /*margin-left: -0.7rem;*/
+  }
+
+  .jumbotron-content .display-4 {
+    color: white;
+    text-align: left;
+    margin-top: 5rem;
+    font-weight: 200;
+    font-size: 51px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+    font-family: "Poppins", sans-serif;
+  }
+
+  .jumbotron-content .display-4 span {
+    font-weight: 500;
+    color: firebrick;
+  }
+
+  .jumbotron-content p {
+    text-align: justify;
+    font-weight: 500;
+    font-size: 35px;
+    color: #FFFFF0;
+    font-family: "Poiret One", cursive;
+    font-weight: bold;
+  }
+  /* end jumbotron */
+
+  /*polaroid*/
+  .polaroid{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+    color: rgba(0,0,0,0.7);
+    position: relative;
+    text-align: center;
+    margin-bottom: 3rem;
+    margin-top:2rem;
+  }
+
+  .polaroid-body h2{
+    padding: 15px;
+    color:black;
+    font-family: 'Poiret One', cursive;font-weight:bold;
+    font-size: 25px;
+  }
+
+  .polaroid-body p{
+    padding: 15px;
+    color:black;
+    font-family: 'Poiret One', cursive;font-weight:bold;
+    font-size: 25px; 
+  }
+
+  .polaroid-vector{
+    width: 500px;
+    height: 600px;
+    margin-top: 1rem;
+    margin-left: .1rem;
+  }
+  /*end polaroid*/
+
+  /*parallax*/
+  .parallax{
+    min-width: 70%;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:10;
+    margin-left: -7rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .caption {
+    background:rgba(255,255,255,0.2);
+    /*clip-path: polygon(10% 3%, 100% 5%, 75% 100%, 10% 100%); */
+    position: absolute;
+    margin-top: 17rem;
+    width: 85%;
+    margin-left: -2rem;
+    text-align: center;
+    color: #fff;
+  }
+  .caption h2 {
+    font-family: 'Poiret One', cursive;font-weight:bold;
+    text-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    margin-bottom: .9rem;
+    margin-top: -3rem;
+    font-size: 21px;
+    margin-left: -5rem;
+  }
+  .caption a{
+    font-size: 18px;
+  }
+  /*end parallax*/
+
+  /*parallax2*/
+  #gabung{
+    width: 100%;
+    height: 70vh;
+  }
+  .parallax2{
+    /*clip-path: polygon(0 0, 100% 0%, 75% 100%, 0% 100%);*/
+    /*clip-path: polygon(50% 0%, 100% 0, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);*/
+    /*clip-path: polygon(55% 0, 100% 0, 100% 43%, 94% 78%, 68% 100%, 0 100%, 0 47%, 0 0, 16% 0);*/
+    /*min-width: 105vw;*/
+    min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin:0;
+    /*margin-bottom: 3rem;*/
+  }
+  .caption2 {
+   background:rgba(255,255,255,0.3);
+   /* clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%); */
+   position: absolute;
+   margin-top: 7rem;
+   width: 100%;
+   text-align: center;
+   color: #000;
+ }
+ .caption2 h2 {
+  font-family: 'Poiret One', cursive;font-weight:bold;
+  text-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  margin-bottom: .9rem;
+  font-size: 41px;
+  text-align: center;
+}
+.caption2 a{
+  font-size: 21px;
+}
+/*end parallax2*/
+
+/*underline*/
+.underline:after{
+  content: '';
+  display: block;
+  margin: auto;
+  position: relative;
+  margin-bottom:2rem;
+  width: 100px;
+  height: 2px;
+  background:rgb(255, 99, 78);
+}
+/*end underline*/
+
+/* info-panel */
+.info-panel{
+  width: 70%;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  margin-top: -120px;
+  background-color: white;
+  padding: 30px;
+}
+
+/*.info-panel img{
+  height: 95px;
+  width: 100px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  }*/
+
+  .info-panel h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+
+  .info-panel p {
+    font-size: 12px;
+    color: #ACACAC;
+    margin-top: -5px;
+    font-weight: 200;
+  }
+  /*end info panel*/
+
+  /*panel*/
+  .panel{
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -7.5rem;
+    padding: 12px;
+    background-color: white;
+    width: 100%;
+  }
+  .panel-body {
+    margin-top: 1rem;
+    padding: 15px;
+  }
+
+  /*end panel;*/
+
+  /*wave */
+  .wave-container {
+    position: relative;
+    background: #09F;
+    color: #FFF;
+    text-align: center;
+    overflow: hidden;
+  }
+  @keyframes animateWave {
+    0% {
+      transform: scale(1,0);
+    }
+    100% {
+      transform: scale(1,1);
+    }
+  }
+  .wave-container > svg {
+    display: block;
+    transform-origin: bottom;
+    animation: animateWave 1000ms cubic-bezier(0.23, 1, 0.32, 1) forwards;
+  }
+  /*end wave*/
+
+  /*table*/
+  table{
+    font-family: verdana;
+    width: 100vw;
+    margin-left: -2rem;
+  }
+  table th{
+    background-color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  table td, ul {
+    text-transform: capitalize;
+  }
+  th{
+    position: sticky;
+    top: 0; /* Don't forget this, required for the stickiness */
+    box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.9);
+    z-index: 1;
+  }
+  .td-fixed{
+    position: sticky;
+    top: 35; 
+  }
+
+  .fixed-jasa{
+    color: red;
+    position: sticky;
+    top: 35;
+  }
+
+  table .glyphicon-plus {
+    cursor: pointer;
+  }
+  @-moz-document url-prefix() {
+    fieldset { display: table-cell; }
+  }
+  /*end table*/
+
+  /* produk-detail */
+  .produk-detail{
+    font-family: 'Work Sans', sans-serif;
+  }
+  .produk-detial ul, ol{
+    list-style-type: circle !important;
+  }
+  .panel-group{
+    margin-top: 7.5rem;
+  }
+
+  .panel-table ul{
+    list-style-type: circle !important;
+  }
+
+  details{
+    cursor: pointer;
+  }
+  summary {
+    cursor: pointer;
+  }
+
+  summary > * {
+    display: inline;
+  }
+  details > summary {
+    background-color: #fdb;
+    cursor: pointer;
+    padding: .5rem 1rem;
+  }
+  /*main footer*/
+
+  .footer-content {
+    background: rgba(234, 244, 252, 0.5);
+    /*clip-path: polygon(
+      0 0,
+      100% 0,
+      100% 100%,
+      0 calc(100% - 5vw)
+      );*/
+      clip-path: polygon(100% 0%, 0% 0% , 0% 65%, 1% 64.95%, 2% 64.8%, 3% 64.6%, 4% 64.3%, 5% 63.9%, 6% 63.45%, 7% 62.9%, 8% 62.25%, 9% 61.55%, 10% 60.8%, 11% 59.95%, 12% 59.05%, 13% 58.1%, 14% 57.1%, 15% 56.05%, 16% 55%, 17% 53.9%, 18% 52.8%, 19% 51.65%, 20% 50.5%, 21% 49.35%, 22% 48.2%, 23% 47.05%, 24% 45.9%, 25% 44.8%, 26% 43.75%, 27% 42.75%, 28% 41.75%, 29% 40.8%, 30% 39.9%, 31% 39.1%, 32% 38.35%, 33% 37.65%, 34% 37.05%, 35% 36.5%, 36% 36.05%, 37% 35.65%, 38% 35.35%, 39% 35.15%, 40% 35.05%, 41% 35%, 42% 35.05%, 43% 35.2%, 44% 35.45%, 45% 35.75%, 46% 36.15%, 47% 36.65%, 48% 37.2%, 49% 37.85%, 50% 38.55%, 51% 39.35%, 52% 40.2%, 53% 41.1%, 54% 42.05%, 55% 43.05%, 56% 44.1%, 57% 45.15%, 58% 46.3%, 59% 47.4%, 60% 48.55%, 61% 49.7%, 62% 50.85%, 63% 52%, 64% 53.15%, 65% 54.25%, 66% 55.35%, 67% 56.4%, 68% 57.45%, 69% 58.4%, 70% 59.35%, 71% 60.2%, 72% 61.05%, 73% 61.8%, 74% 62.45%, 75% 63.05%, 76% 63.6%, 77% 64.05%, 78% 64.4%, 79% 64.7%, 80% 64.85%, 81% 65%, 82% 65%, 83% 64.9%, 84% 64.75%, 85% 64.5%, 86% 64.2%, 87% 63.75%, 88% 63.25%, 89% 62.7%, 90% 62.05%, 91% 61.3%, 92% 60.5%, 93% 59.65%, 94% 58.75%, 95% 57.8%, 96% 56.8%, 97% 55.75%, 98% 54.65%, 99% 53.55%, 100% 52.4%);
+      height: 70vh;
+      width: 98.8vw;
+      margin-top: 5rem;
+    }
+    .footer-content .content-footer{
+      margin-top: 11rem;
+      z-index: 1;
+    }
+    .footer-content img{
+      margin-top: -7rem;
+      z-index: 1;
+    }
+    #footer-data{
+      /*background: rgba(209, 211, 213, 0.5);
+      box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.9);*/
+      margin-top: 5rem;
+      height: 15vh;
+      color: #fff;
+
+    }
+    #footer-data h1, h2{
+       /*padding: 10px;*/
+       color: #737576;
+       text-align: center;
+    }
+    #footer-data img{
+     width: 110px;
+     height: 50px;
+     margin-top: 2rem;
+    }
+    /*end footer*/
+    /*mobile*/
+    @media only screen and (max-device-width: 812px) {
+      /* Sidebar Navigation */
+      .section-nav {
+        margin-left: -5.5rem;
+        width: 85.5%;
+      }
+
+      .jumbotron-content {
+        width: 99.5%;
+      }
+      .jumbotron-content .container {
+        margin-top: 35rem;
+      }
+
+      .jumbotron-content::after {
+        content: "";
+        display: block;
+        margin-left: -1rem;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+        position: absolute;
+        bottom: 0;
+        /*margin-left: -0.7rem;*/
+      }
+
+      .jumbotron-content .display-4{
+        width: 70%;
+      }
+      .jumbotron-content p {
+        width: 70%;
+      }
+
+      .info-panel{
+        margin-left: 15rem;
+      }
+      /*panel table*/
+      #points--table{
+        width: 35vw;
+        margin-left: -1rem;
+      }
+      .panel-table{
+        margin-left: -1rem;
+        width: 57vw!important;
+      }
+      .panel-table ul,ol{
+        list-style-type: circle !important;
+      }
+      table th{
+        font-size: 14px;
+      }
+      table td{
+        font-size: 13px;
+      }
+
+      #points{
+        margin-left: 1rem;
+        width: 80%;
+      }
+      .panel-parallax{
+        margin-left: -.3rem;
+      }
+      /*end panel table*/
+      #authentication{
+        width: 85%;
+      }
+      #points--produk-detail{
+        width: 95%;
+        margin-left: 2rem;
+      }
+      #gabung{
+        width: 100%;
+        height: 30vh;
+      }
+      .parallax{
+       background-attachment: scroll;
+       width: 65.5vw;
+     }
+     
+    .parallax2{
+      background-attachment: scroll;
+      width:100%;
+    }
+    .caption2 {
+      background:rgba(255,255,255,0.2);
+      /*clip-path: polygon(10% 3%, 100% 5%, 75% 100%, 10% 100%); */
+      position: absolute;
+      margin-top: 17rem;
+      width: 100%;
+      text-align: center;
+      color: #000;
+    }
+    .caption2 h2 {
+      font-family: 'Poiret One', cursive;font-weight:bold;
+      text-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+      margin-bottom: .9rem;
+      margin-top: -3rem;
+      font-size: 21px;
+      margin-left: 5rem;
+    }
+
+    .footer-content {
+      background: rgba(234, 244, 252, 0.5);
+      width: 100vw;
+      margin-top: 5rem;
+      clip-path: polygon(
+        0 0,
+        100% 0,
+        100% 100%,
+        0 calc(100% - 5vw)
+        );
+      height: 70vh;
+    }
+
+    .footer-content .content-footer{
+      margin-top: 5rem;
+    }
+    .footer-content img{
+      margin-top: 2rem;
+      width: 100%;
+    }
+    #footer-data{
+      background: rgba(209, 211, 213, 0.5);
+      box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.9);
+      margin-top: 15rem!important;
+      height: 10%;
+      color: #fff;
+    }
+     #footer-data h1, h2{
+       padding: 10px;
+       color: #737576;
+       text-align: center;
+    }
+
+  }
