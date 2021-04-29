@@ -58,7 +58,7 @@ main > nav {
     width: 14em;
     padding-left: 0;
     border-left: 1px solid #efefef;
-    background: rgba(188, 191, 198, 0.5);
+    background: rgba(188, 191, 198, 0.3);
     margin-left: 1.7rem;
   }
 
@@ -197,7 +197,7 @@ main > nav {
     display: block;
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0));
     position: absolute;
     bottom: 0;
     /*margin-left: -0.7rem;*/
@@ -226,6 +226,9 @@ main > nav {
     color: #FFFFF0;
     font-family: "Poiret One", cursive;
     font-weight: bold;
+  }
+  .syoobe-logo{
+
   }
   /* end jumbotron */
 
