@@ -1,0 +1,2184 @@
+<div id="app">
+	<!DOCTYPE html>
+	<html lang="en">
+
+	<head>
+
+		<meta charset="UTF-8">
+
+		<title>Become Seller</title>
+
+		<meta name="description" content="Syoobe marketplace">
+		<meta name="author" content="Become seller | Syoobe | Puji Ermanto">
+
+		<meta name="viewport" content="width=700, user-scalable=no" />
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous"> -->
+		<script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+		<!-- <link href="https://fonts.googleapis.com/css2?family=Anton&family=Frank+Ruhl+Libre:wght@500&family=Poiret+One&family=Poppins:ital,wght@1,300&family=Quicksand:wght@500&display=swap" rel="stylesheet"> -->
+		<link rel="shortcut icon" href="https://syoobe.co.id/image/site_favicon/icon2.png">
+		<link rel="apple-touch-icon" href="https://syoobe.co.id/image/apple_touch_icon/favicon.png">
+		<link href="https://www.syoobe.co.id:443/" rel="canonical" />
+		<link href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@900&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Frank+Ruhl+Libre|Roboto" rel="stylesheet">
+		<!-- <link href="public/css/normalize.css" rel="stylesheet" type="text/css" /> -->
+		<link href="public/css/style.css" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+	</head>
+
+	<body>
+
+	<div id="header-data">
+		<header>
+			<div class="jumbotron jumbotron-fluid jumbotron-content" :style="jumbotron.style">
+				<div class="container">
+					<div class="row no-gutters justify-content-center">
+						<div class="col-md-6 col-xs-12 col-sm-12">
+							<div data-aos="flip-rigth" data-aos-easing="linear" data-aos-duration="1500">
+								<h1 class="display-4 text-center" style="font-family:'Anton' sans-serif;"> {{jumbotron.data.header}} </h1>
+								<p class="blockquote-text" style="font-size: 30px; font-family:'Reey Regular';color: firebrick; text-indent: 21px;"> 
+									{{jumbotron.data.brand}} <span style="font-family:'Poiret One'; font-size: 21px; color: white;"> {{jumbotron.data.context.intro}} <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+										{{jumbotron.data.context.focus}}
+									</span>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+	</div>
+
+		
+
+		<main>
+			<div>
+				<!-- introd -->
+				<div id="introduction">
+					<section id="intro-start">
+						<div data-aos="fade-right">
+							<div class="panel panel-default">
+								<div class="panel-body">
+									<div class="row">
+										<div data-aos="fade-left">
+											<div class="col-md-6">
+												<div class="polaroid">
+													<img src="https://syoobe.netlify.app/public/images/animated/anim4.gif" class="img-responsive">
+												</div>
+											</div>
+										</div>
+										<div data-aos="flip-up" data-aos-easing="linear"
+										data-aos-duration="1500">
+										<div class="col-md-6">
+											<h2>Buat Rencana besar di <span style="font-family: 'Reey Regular'; color: firebrick; margin-left: 1rem;">Syoobe</span> </h2>
+											<p>Pelajari lebih lanjut berjualan di <b><u></u>Syoobe</b>.  Buat kejutan dengan menentukan rencana <span class="text-primary glyphicon glyphicon-tag" aria-hidden="true"></span> penjualan anda diawal, jual produk, kreativitas dan kemampuan anda di Syoobe. <b><u>Tunjukkan Pada Dunia</u></b> , bahwa anda mampu menciptakan sesuatu yang dapat membantu orang lain. <br/> Kami membantu membuat laporan <span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> yang tercatat yang disajikan pada menu penjualan untuk setiap penjualan produk anda.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div data-aos="zoom-in-up" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+						<div class="row">
+							<div class="col-md-offset-4">
+								<div class="polaroid">
+									<img src="https://syoobe.netlify.app/public/images/animated/anim10.gif" class="img-responsive">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="request-response">
+					<div class="row">
+						<div data-aos="flip-down" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+							<div class="col-md-6">
+								<h2>Tunjukan Strategimu agar anda dikenal</h2>
+								<p> <b><u>Dedikasikan Dirimu</u></b> dengan seluruh kemampuan anda, dan buat orang lain tertarik untuk mencoba produk dan karyamu. Setiap hasil karyamu akan dihargai dengan nilai kepuasan oleh pengguna. <span class="text-success glyphicon glyphicon-check" aria-hidden="true"></span> </p>
+							</div>
+						</div>
+						<div data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1500">
+							<div class="col-md-offset-6">
+								<div class="polaroid">
+									<img src="https://syoobe.netlify.app/public/images/animated/anim5.png" class="img-responsive">
+								</div>
+							</div>
+						</div>
+						<div data-aos="flip-right" data-aos-easing="linear" data-aos-duration="1500">
+							<div class="col-md-offset-3">
+								<div class="polaroid">
+									<img src="https://syoobe.netlify.app/public/images/animated/anim31.gif" class="img-responsive">
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section id="authentication">
+					<div class="row">
+						<div class="col-md-8">
+							<div data-aos="flip-down" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+								<img src="https://syoobe.netlify.app/public/images/animated/anim3.gif" class="img-responsive">
+							</div>
+						</div>
+						<div data-aos="zoom-in-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+							<div class="col-md-offset-6">
+								<h2>Buatlah Akun anda  dan bersinarlah bersama <span style="font-family: 'Reey Regular'; font-size: 31px; color: firebrick; margin-left: 1rem;">Syoobe</span>.
+								</h2>
+								<br>
+								<p>
+									Menjadi pedagang atau penyedia layanan jasa di Syoobe dapat dimulai dengan membuat akun  dalam waktu yang singkat. Dengan membuat akun  <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>, anda akan menjadi bagian dalam bisnis Bersama kami.Bersama kami merupakan  pilihan yang tepat. Karena, anda akan memiliki pengalaman baru yang mengesankan dalam dunia ecommerce. <br/> Syoobe menetapkan persentase perhitungan biaya administrasi penjualan.Perhitungan dapat dilihat pada table kategori produk <br/>
+									<br>
+									<a href="https://www.syoobe.co.id/perhitungan-biaya-administrasi/cms/view/58" class="btn btn-sm btn-danger">Perhitungan biaya administrasi</a> 
+									<br><br>
+									Kami senang anda menjadi bagian dalam <b>bisnis</b> kami. Karena itu kami akan memenuhi segala kebutuhan anda, dengan memberikan data seakurat mungkin, <br> dari <b><u>PPN hingga pajak PPh 23</u></b>.
+									<br/>
+									Dalam tiap kategori memiliki keunikan masing-masing
+									<br/>
+									<blockquote class="text-success" style="font-family: 'Poiret One'; font-weight: 800;">
+										Ikuti kami terus sebelum anda  bergabung bersama kami. <span class="glyphicon glyphicon-qrcode" aria-hidden="true"></span>           
+									</blockquote> 
+								</p>
+							</div>
+						</div>
+					</div>
+
+					<div data-aos="flip-left" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+						<div class="row">
+							<div class="col-12">
+								<div class="polaroid">
+									<img src="https://syoobe.netlify.app/public/images/animated/anim11.gif" class="img-responsive">
+									<div class="polaroid-body">
+										<blockquote class="text-center blockquote-footer" style="font-size: 21px; font-family:SpringSakura;margin-top:-2rem!important;">
+									<span style='font-family:SpringSakura; color:salmon;font-weight:normal;'>[{</span>
+									Kami merupakan media yang ramah bagi  kalangan kreatif. <span style='font-family:SpringSakura; color: salmon;'>|"</span>
+								</blockquote>
+									</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+			<!-- end intro -->
+
+			<!-- custom -->
+			<h1 class="underline" style="margin-top: -5rem;"></h1>
+
+			<div class="parallax" style="background-image: url(https://syoobe.netlify.app/public/images/header/header2.jpg)">
+				<div class="caption">
+					<br/><br/>
+					<h2 style="color: #000">
+						Bangun bisnis kreatifmu bersama <br/> <span style='font-style:italic; font-size: 30px; font-family:SpringSakura; color:firebrick;'> Syoobe </span> <span style="font-family:SpringSakura;">Marketplace</span>
+						<span style='font-family:SpringSakura; color: lime;'>|}]"</span>
+					</h2>
+				</div>
+			</div>
+			<!-- end custom -->
+
+			<!-- points -->
+			<section id="points">
+				<div class="info-panel col-md-offset-3 panel-parallax">
+					<div class="row">
+						<div class="col-md-4">
+							<h3 style="margin-top:3rem;">
+								Menambahkan Produk 
+								<span style="font-family: SpringSakura; color: green;">"}"|</span> 
+							</h3>
+						</div>
+
+						<div class="col-md-offset-5">
+							<img src="https://syoobe.netlify.app/public/images/animated/anim16.gif" class="img-responsive">
+							<blockquote class="text-center" style="font-family:Reey Regular;">
+								Proses menambahkan produk tanpa ribet
+							</blockquote>
+						</div>
+					</div>
+					<h1 class="underline" style="margin-top: 15px;"></h1>
+				</div>
+
+				<section id="points--root">
+					<div class="row">
+						<div data-aos="flip-right"
+						data-aos-easing="ease-in-sine" data-aos-duration="1500">
+						<div class="col-md-8">
+							<div class="polaroid">
+								<img src="https://syoobe.netlify.app/public/images/vector_image/vector3.jpg" class="img-responsive">
+							</div>
+						</div>
+					</div>
+					<div class="col-md-offset-3">
+						<div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
+							<h2>Cara Menambahkan <span style="font-family:'SpringSakura'; color: darkkhaki;">Produk</span> Dan <span style="font-family:'Reey Regular'; color: salmon;">Karyamu</span></h2>
+							<p>
+								Apa yang harus anda tambahkan untuk di jual di <b>Syoobe??</b> <u>Produk</u>, Kategori dan merek yang akan di kenal oleh orang banyak.
+
+								<b><u>Produk dan kategori</u></b> memiliki batasan untuk dijual dan beberapa penambahan memerlukan persetujuan oleh pihak Syoobe, anda dapat <b><u>menghubungi kami</u></b> kapan saja untuk dapat membantu anda. Beberapa hal seperti  <span class="text-danger glyphicon glyphicon-remove-circle" aria-hidden="true"></span> <b><u>obat-obatan terlarang dan hal-hal yang dilarang oleh negara </u></b> <i> kiranya</i> <u><font color="red">tidak di tambahkan</font></u> dalam market ini, jika diketemukan kami dapat mengambil tindakan sebelah pihak dan penutupan akun anda.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- product categories -->
+			<section id="points--categories">
+				<div class="row">
+					<div data-aos="flip-up"  data-aos-easing="linear"
+					data-aos-duration="1500">
+					<div class="col-md-4">
+						<h2>Produk Kategori</h2>
+						<p>Ragam produk dengan kategori yang variatif bisa kalian jual di <b><u></u>Syoobe</b>.  Berikut kami siapkan daftar kategori produk.</p>
+					</div>
+				</div>
+				<div data-aos="flip-down" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+					<div class="col-md-8">
+						<div class="polaroid">
+							<img src="https://syoobe.netlify.app/public/images/header/jumbotron1.jpg" class="img-responsive">
+						</div>
+					</div>
+				</div>
+			</div>
+			<h1 class="underline" style="margin-top: 15px;"></h1>
+		</section>
+
+		<section id="points--table">
+			<!-- table ponsel & tablet -->
+			<div class="panel panel-default panel-table">  
+				<div class="panel-body">
+					<table class="table table-condensed">
+						<thead>
+							<tr>
+								<th>kategori</th>
+								<th>sub kategori</th>
+								<th>kondisi</th>
+							</tr>
+						</thead>
+						<tbody>
+
+							<!-- ponsel & tablet -->
+							<tr id="data-ponsel">
+								<td style="text-transform: uppercase;font-weight:bold;" id="points--ponsel" >ponsel &amp; tablet</td>
+								<td>
+									<ul>
+										<li>
+											aksesoris tablet
+											<ul>
+												<li>komponen tablet</li>
+											</ul>
+										</li>
+										<li>casing tablet</li>
+										<li>komponen ponsel &amp; tablet</li>
+										<li>memory card</li>
+										<li>ponsel</li>
+										<li>tablet</li>
+										<li>
+											aksesories ponsel
+											<ul>
+												<li>komponen ponsel</li>
+												<li>kartu perdana</li>
+												<li>smartwatch</li>
+												<li>kartu memory</li>
+											</ul>
+										</li>
+									</ul>
+								</td>
+								<td id="kondisi">
+									<ul>
+										<li>baru</li>
+										<li>bekas</li>
+										<li>rekondisi</li>
+										<li>tidak berfungsi atau barang rusak</li>
+									</ul>
+								</td>
+							</tr>
+
+							<!-- elektronik -->
+							<tr id="data-elektronik">
+								<td  style="text-transform: uppercase;font-weight:bold;" id="points--elektronik"> elektronik </td>
+								<td>
+									<ul>
+										<li>akses kontrol pintu</li>
+										<li>
+											aksesoris elektronik 
+											<ul>
+												<li>adaptor</li>
+												<li>antena</li>
+												<li>baterai</li>
+												<li>cd-vcd-dvd-blue-ray Player</li>
+												<li>kabel listrik &amp; sparepart</li>
+												<li>lampu</li>
+												<li>sakelar</li>
+												<li>sound sistem</li>
+											</ul>
+										</li>
+										<li>alat musik digital</li>
+										<li>alat pembasmi serangga</li>
+										<li>alat rekaman</li>
+										<li>speaker &amp; mikrofon</li>
+										<li>
+											audio 
+											<ul>
+												<li>audio analog</li>
+												<li>audio digital</li>
+												<li>portable audio player</li>
+											</ul>
+										</li>
+										<li>freezer</li>
+										<li>
+											komputer laptop printer &amp; scanner 
+											<ul>
+												<li>
+													aksesories komputer 
+													<ul>
+														<li>komponen komputer</li>
+														<li>pendingin</li>
+														<li>tas laptop</li>
+														<li>aksesories laptop</li>
+														<li>aksesories printer</li>
+														<li>
+															aksesories scanner 
+															<ul>
+																<li>gamming</li>
+																<li>hardware</li>
+																<li>laptop</li>
+																<li>media penyimpanan data 
+																	<ul>
+																		<li>hardisk</li>
+																		<li>memory card</li>
+																	</ul>
+																</li>
+																<li>monitor</li>
+																<li>networking</li>
+																<li>pc dan laptop</li>
+																<li>perangkat lunak</li>
+																<li>printer</li>
+																<li>scanner</li>
+															</ul>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>layar proyektor</li>
+										<li>media player</li>
+										<li>
+											mesin absensi 
+											<ul>
+												<li>mesin absen manua</li>
+												<li>mesin absen scan</li>
+											</ul>
+										</li>
+										<li>mesin cuci piring</li>
+										<li>mesin fax</li>
+										<li>
+											mesin fotocopy
+											<ul>
+												<li>aksesories mesin fotocopy</li>
+												<li>komponen mesin fotocopy</li>
+												<li>mesin fotocopy digital</li>
+												<li>mesin fotocopy manual</li>
+											</ul>
+										</li>
+										<li>mesin hitung uang</li>
+										<li>mesin home industri</li>
+										<li>mesin jahit</li>
+										<li>mesin jilid</li>
+										<li>mesin kasir</li>
+										<li>mesin laminating</li>
+										<li>mesin penghancur kertas</li>
+										<li>radio &amp; type player</li>
+										<li>
+											rumah tangga
+											<ul>
+												<li>airpurier</li>
+												<li>blander</li>
+												<li>dispenser</li>
+												<li>exhaust fan</li>
+												<li>juicer</li>
+												<li>kipas angin</li>
+												<li>kompor</li>
+												<li>lemari pendingin / kulkas</li>
+												<li>mainan anak-anak</li>
+												<li>mesin cuci</li>
+												<li>mesin jahit</li>
+												<li>mesin pembuat kopi</li>
+												<li>mesin penggiling daging</li>
+												<li>mixer kue</li>
+												<li>
+													multimedia 
+													<ul>
+														<li>home theater</li>
+													</ul>
+												</li>
+												<li>
+													oven / pemanggang 
+													<ul>
+														<li>microwave</li>
+													</ul>
+												</li>
+												<li>penanak nasi</li>
+												<li>pengering rambut</li>
+												<li>penyedot debu</li>
+												<li>pompa air</li>
+												<li>radio tape</li>
+												<li>senter / lampu darurat (emergency)</li>
+												<li>setrika</li>
+												<li>slow cooker</li>
+												<li>telepon</li>
+												<li>televisi</li>
+												<li>toaster / pemanggang roti</li>
+												<li>water dispanser</li>
+												<li>water hiter</li>
+											</ul>
+										</li>
+										<li>smoke detector</li>
+										<li>speaker &amp; mikrofon</li>
+										<li>thermal gun suhu</li>
+										<li>vaporizer</li>
+										<li>walkie talkie</li>
+										<li>
+											kamera &amp; lensa foto &amp;
+											<ul>
+												<li>kamera digital</li>
+												<li>kamera analog</li>
+												<li>kamera pengintai</li>
+												<li>cctv</li>
+												<li>perlengkapan perawatan kamera</li>
+												<li>tas kamera</li>
+												<li>aksesories lensa</li>
+												<li>aksesories kamera</li>
+											</ul>
+										</li>
+										<li>pencahayaan</li>
+									</ul>
+								</td>
+							</tr>
+
+							<!-- otomotif -->
+							<tr id="data-otomotif">
+								<td scope="row" style="text-transform: uppercase;font-weight:bold;" id="points--otomotif">otomotif</td>
+								<td>
+									<ul>
+										<li>asupan udara</li>
+										<li>
+											ban
+											<ul>
+												<li>ban mobil</li>
+												<li>ban motor</li>
+												<li>ban sepeda</li>
+											</ul>
+										</li>
+										<li>
+											aksesories interiod mobil
+											<ul>
+												<li>jok &amp; sarung jok</li>
+											</ul>
+										</li>
+										<li>aksesories eksterior mobil</li>
+										<li>
+											kendaraan
+											<ul>
+												<li>mobil</li>
+												<li>motor</li>
+												<li>perahu</li>
+												<li>sepeda</li>
+											</ul>
+										</li>
+										<li>aksesories pengendara motor</li>
+										<li>knalpot</li>
+										<li>kopling</li>
+										<li>lampu &amp; pencahayaan</li>
+										<li>
+											mesin &amp; kelistrikan body
+											<ul>
+												<li>peralatan kelistrikan</li>
+												<li>perlengkapan kelistrikan</li>
+											</ul>
+										</li>
+										<li>oli atau pelumas</li>
+										<li>velg</li>
+										<li>pengemudian</li>
+										<li>ram &amp; suspensi</li>
+										<li>sistem pendingin</li>
+										<li>suku cadang &amp; spion mobil</li>
+										<li>suku cadang spion &amp; motor</li>
+										<li>suku cadang spion &amp; sepeda</li>
+										<li>perkakas &amp; perlengkapan</li>
+										<li>otomotif</li>
+									</ul>
+								</td>
+							</tr>
+
+							<!-- aneka prouk  -->
+							<tr id="data-anekaproduk">
+								<td scope="row" style="text-transform: uppercase;font-weight:bold;" id="points--anekaproduk">aneka produk</td>
+
+								<td>
+									<ul>
+										<li>
+											alat keselamata kerja
+											<ul>
+												<li>helm pelindung</li>
+												<li>kacamata pelindung</li>
+												<li>masker</li>
+												<li>pelampung</li>
+												<li>pelindung telinga</li>
+												<li>pelindung wajah</li>
+												<li>sabuk pelindung</li>
+												<li>sarung tangan</li>
+												<li>sepatu pelindung</li>
+											</ul>
+										</li>
+										<li>
+											atk (alat tulis kantor)
+											<ul>
+												<li>alat pemotong kertas</li>
+												<li>amplop</li>
+												<li>aneka kertas</li>
+												<li>box kertas</li>
+												<li>buku &amp; alat tulis</li>
+												<li>gunting kalkulator</li>
+												<li>klip kertas</li>
+												<li>label &amp; post it</li>
+												<li>odner</li>
+												<li>pensil &amp; penghapus</li>
+												<li>perekat</li>
+												<li>tempat kartu nama</li>
+												<li>meja gambar</li>
+												<li>perlengkapan menggambar &amp; melukis</li>
+											</ul>
+										</li>
+										<li>
+											Audio musik
+											<ul>
+												<li>aksesoris alat musik</li>
+												<li>alat musik drum &amp; perkusi</li>
+												<li>alat musik gesek</li>
+												<li>alat musik keyboard &amp; piano</li>
+												<li>alat musik tiup</li>
+												<li>alat musik tradisional</li>
+											</ul>
+										</li>
+										<li>
+											bahan bangunan
+											<ul>
+												<li>aquaproof</li>
+												<li>cat</li>
+												<li>engsel pintu</li>
+												<li>handle pintu</li>
+												<li>keramik</li>
+												<li>kloset</li>
+												<li>kran air</li>
+												<li>paku</li>
+												<li>peralatan bangunan</li>
+												<li>perekat</li>
+												<li>pintu</li>
+												<li>showe</li>
+												<li>skrup mur &amp; baut</li>
+												<li>tempat sabun</li>
+											</ul>
+										</li>
+										<li>
+											buku bacaan
+											<ul>
+												<li>agama</li>
+												<li>hukum social &amp; politik</li>
+												<li>interior rumah &amp; taman</li>
+												<li>komik</li>
+												<li>komputer &amp; teknologi</li>
+												<li>kreativitas dan kerajinan</li>
+												<li>masakan</li>
+												<li>novel</li>
+												<li>pelajaran sekolah</li>
+												<li>periklanan</li>
+												<li>pertanian</li>
+												<li>peternakan</li>
+											</ul>
+										</li>
+										<li>
+											dapur
+											<ul>
+												<li>peralatan &amp; perlengkapan membuat kue</li>
+												<li>peralatan dapur</li>
+												<li>perlengkapan dapur</li>
+											</ul>
+										</li>
+										<li>
+											jam tangan &amp; perhiasan
+											<ul>
+												<li>
+													perhiasan
+													<ul>
+														<li>logam mulia</li>
+														<li>perhiasan wanita</li>
+														<li>perhiasan pria</li>
+													</ul>
+												</li>
+												<li>jam tangan anak-anak</li>
+												<li>jam tangan wanita</li>
+												<li>jam tangan pria</li>
+												<li>jam tangan couple</li>
+											</ul>
+										</li>
+										<li>
+											mainan hobi &amp; koleksi
+											<ul>
+												<li>mainan usia 0-1 tahun</li>
+												<li>mainan usia 2-5 tahun</li>
+												<li>mainan usia 6-12 tahun</li>
+												<li>pancingan</li>
+												<li>mainan kreativitas</li>
+												<li>skuter</li>
+												<li>skateboard</li>
+												<li>sepatu roda</li>
+												<li>diecast</li>
+												<li>koleksi penggemar</li>
+												<li>figure</li>
+												<li>model kit</li>
+												<li>puzzle &amp; board game</li>
+												<li>radio control</li>
+											</ul>
+										</li>
+										<li>
+											makanan &amp; minuman
+											<ul>
+												<li>daging mentah atau olahan</li>
+												<li>food court online</li>
+												<li>makanan ringan</li>
+												<li>makanan bayi</li>
+												<li>makanan sehat</li>
+												<li>
+													makanan segar
+													<ul>
+														<li>sayuran</li>
+														<li>buah</li>
+													</ul>
+												</li>
+												<li>bahan pokok</li>
+												<li>roti &amp; kue</li>
+												<li>makanan kaleng</li>
+												<li>makanan beku</li>
+												<li>makanan siap saji</li>
+												<li>coklat &amp; permen</li>
+												<li>minuman</li>
+												<li>minuman sehat</li>
+												<li>menu sarapan</li>
+												<li>susu &amp; olahan</li>
+											</ul>
+										</li>
+										<li>
+											pertukangan &amp; taman
+											<ul>
+												<li>aneka bibit tanaman</li>
+												<li>aneka tanaman</li>
+												<li>hydroponic</li>
+												<li>peralatan pertukangan</li>
+												<li>perlengkapan pertukangan</li>
+											</ul>
+										</li>
+										<li>
+											produk pembersih
+											<ul>
+												<li>alat lantai</li>
+												<li>alat pembersih lantai</li>
+												<li>anti serangga</li>
+												<li>deterjen</li>
+												<li>penghilang noda</li>
+												<li>sabun cuci pakaian</li>
+												<li>sabun cuci piring</li>
+												<li>tong sampah</li>
+												<li>tisu</li>
+											</ul>
+										</li>
+										<li>
+											rumah &amp; furniture
+											<ul>
+												<li>
+													furniture
+													<ul>
+														<li>lemari pakaian</li>
+														<li>meja belajar</li>
+														<li>meja kerja</li>
+														<li>rak buku</li>
+														<li>rak TV</li>
+														<li>sofa</li>
+														<li>tempat tidur</li>
+														<li>kamar mandi</li>
+														<li>kamar dekorasi</li>
+														<li>ruang makan</li>
+														<li>perabot rumah</li>
+														<li>
+															peralatan rumah
+															<ul>
+																<li>alat pemeliharaan rumah</li>
+																<li>dapur &amp; alat masak</li>
+															</ul>
+														</li>
+														<li>perlengkapan furniture</li>
+														<li>perlengkapan keagamaan</li>
+														<li>
+															perlengkapan rumah
+															<ul>
+																<li>jam</li>
+																<li>senter</li>
+																<li>payung</li>
+															</ul>
+														</li>
+														<li>tempat duduk</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>
+											souvenir &amp; pesta
+											<ul>
+												<li>balon</li>
+												<li>bunga gist &amp; warping</li>
+												<li>aksesoris pesta</li>
+												<li>perlengkapan pesta</li>
+												<li>souvenir pernikahan</li>
+											</ul>
+										</li>
+										<li>
+											tas sepatu &amp; syall
+											<ul>
+												<li>aksesoris &amp; perawatan sepatu</li>
+												<li>aksesoris &amp; perawatan tas</li>
+												<li>
+													sepatu anak
+													<ul>
+														<li>sepatu sekolah</li>
+														<li>sepatu pesta</li>
+														<li>boots</li>
+														<li>sandal</li>
+														<li>kaos kaki</li>
+													</ul>
+												</li>
+												<li>
+													sepatu pria
+													<ul>
+														<li>boots</li>
+														<li>sepatu kasual</li>
+														<li>sepatu formal</li>
+														<li>sandal</li>
+														<li>sneakers</li>
+														<li>tali sepatu</li>
+														<li>kaos kaki</li>
+													</ul>
+												</li>
+												<li>
+													sepatu wanita
+													<ul>
+														<li>boots</li>
+														<li>sepatu kasual</li>
+														<li>sepatu formal</li>
+														<li>sandal</li>
+														<li>sneakers</li>
+														<li>tali sepatu</li>
+														<li>kaos kaki</li>
+													</ul>
+												</li>
+												<li>syall</li>
+												<li>tas anak</li>
+												<li>tas travel, backpack, punggung</li>
+												<li>
+													tas &amp; dompet pria
+													<ul>
+														<li>clutch</li>
+														<li>dompet pria</li>
+														<li>tas bahu</li>
+														<li>tas pinggang</li>
+														<li>tas tote</li>
+														<li>tas selempang</li>
+													</ul>
+												</li>
+												<li>
+													tas &amp; dompet wanita
+													<ul>
+														<li>clutch</li>
+														<li>dompet wanita</li>
+														<li>tas bahu</li>
+														<li>tas pinggang</li>
+														<li>tas tote</li>
+														<li>tas selempang</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>
+											film video &amp; dvd
+											<ul>
+												<li>film anak-anak</li>
+												<li>film serial</li>
+											</ul>
+										</li>
+										<li>
+											hewan &amp; peliharaan
+											<ul>
+												<li>makanan &amp; minuman hewan</li>
+												<li>suplemen hewan</li>
+											</ul>
+										</li>
+										<li>
+											kerajinan &amp; barang antik
+											<ul>
+												<li>kerajinan kayu</li>
+												<li>kerajinan kramik</li>
+												<li>kerajinan logam</li>
+												<li>kerajinan tangan</li>
+											</ul>
+										</li>
+										<li>
+											kesehatan &amp; kecantikan
+											<ul>
+												<li>obat-obatan</li>
+												<li>alat medis</li>
+												<li>suplemen makanan</li>
+												<li>kontrasepsi</li>
+												<li>perawatan diri</li>
+												<li>
+													perlengkapan mandi
+													<ul>
+														<li>sampo</li>
+													</ul>
+												</li>
+												<li>suplemen kecantikan</li>
+												<li>suplemen kesehatan</li>
+												<li>alat kecantikan</li>
+												<li>perawatan wajah</li>
+												<li>perawatan rambut</li>
+												<li>perawatan tubuh</li>
+												<li>perawatan pria</li>
+												<li>perawatan kuku</li>
+												<li>parfum</li>
+												<li>perawatan kulit</li>
+												<li>
+													kosmetik
+													<ul>
+														<li>kosmetik mata</li>
+														<li>kosmetik bibir</li>
+													</ul>
+												</li>
+												<li>handsanitizer</li>
+												<li>masker medis</li>
+												<li>
+													kacamata
+													<ul>
+														<li>lensa kontak</li>
+													</ul>
+												</li>
+												<li>
+													aksesoris kecantikan
+													<ul>
+														<li>gelang</li>
+														<li>anting</li>
+														<li>kalung</li>
+														<li>cincin</li>
+													</ul>
+												</li>
+												<li>sarung tangan</li>
+												<li>aksesoris rambut</li>
+												<li>topi</li>
+											</ul>
+										</li>
+										<li>
+											koin &amp; uang kertas
+											<ul>
+												<li>koin kuno</li>
+												<li>uang kertas kuno</li>
+											</ul>
+										</li>
+										<li>
+											fashion
+											<ul>
+												<li>
+													fashion anak
+													<ul>
+														<li>
+															aksesoris anak
+															<ul>
+																<li>perhiasan anak</li>
+																<li>tas anak</li>
+																<li>topi</li>
+																<li>ikat pinggang</li>
+															</ul>
+														</li>
+														<li>batik anak</li>
+														<li>kostum anak</li>
+														<li>masker anak</li>
+														<li>pakaian adat daerah anak</li>
+														<li>pakaian anak laki-laki</li>
+														<li>pakaian anak perempuan</li>
+														<li>pakaian dalam anak</li>
+														<li>seragam sekolah</li>
+														<li>ikat pinggang</li>
+													</ul>
+												</li>
+												<li>
+													fashion muslim
+													<ul>
+														<li>aksesoris muslim</li>
+														<li>baju renang muslim</li>
+														<li>fashion muslim anak</li>
+														<li>fashion muslim pria</li>
+														<li>fashion muslim wanita</li>
+														<li>jilbab</li>
+														<li>masker muslim</li>
+														<li>
+															perlengkapan ibadah
+															<ul>
+																<li>mukena</li>
+																<li>sajadah</li>
+																<li>peci</li>
+															</ul>
+														</li>
+														<li>
+															fashion pasangan
+															<ul>
+																<li>batik sarimbit</li>
+															</ul>
+														</li>
+														<li>
+															fashion pria
+															<ul>
+																<li>aksesoris pria</li>
+																<li>atasan pria</li>
+																<li>batik pria</li>
+																<li>bawahan pria</li>
+																<li>blazer &amp; jas pria</li>
+																<li>kostum pria</li>
+																<li>masker pria</li>
+																<li>pakaian adat daerah pria</li>
+																<li>ikat pinggang</li>
+															</ul>
+														</li>
+														<li>
+															fashion wanita
+															<ul>
+																<li>aksesoris wanita</li>
+																<li>atasan wanita</li>
+																<li>bawahan wanita</li>
+																<li>batik &amp; kebaya</li>
+																<li>blazer &amp; jas wanita</li>
+																<li>kostum wanita</li>
+																<li>masker wanita</li>
+																<li>pakaian adat wanita</li>
+																<li>dalaman wanita</li>
+															</ul>
+														</li>
+														<li>ikat pinggang</li>
+														<li>
+															fashion ibu &amp; bayi
+															<ul>
+																<li>aksesoris kepala bayi</li>
+																<li>sepatu bayi</li>
+																<li>pakaian bayi</li>
+																<li>perlengkapan ibu</li>
+																<li>perlengkapan perawatan bayi</li>
+																<li>baju ibu hamil</li>
+																<li>
+																	perlengkapan bayi
+																	<ul>
+																		<li>popok bayi</li>
+																		<li>botol susu</li>
+																		<li>tempat makan bayi</li>
+																		<li>mainan bayi</li>
+																	</ul>
+																</li>
+																<li>tempat tidur bayi</li>
+																<li>kereta dorong bayi</li>
+																<li>games &amp; aksesoris</li>
+															</ul>
+														</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>
+											olahraga
+											<ul>
+												<li>
+													alat fitner
+													<ul>
+														<li>aksesoris fitnes</li>
+														<li>alat fitnes treadmil</li>
+													</ul>
+												</li>
+												<li>baju olahraga</li>
+												<li>camping</li>
+												<li>sandal gunung</li>
+												<li>tenda</li>
+												<li>perlengkapan badminton &amp; teniss</li>
+												<li>perlengkapan basket</li>
+												<li>perlengkapan renang &amp; diving</li>
+												<li>
+													perlengkapan sepakbola &amp; futsal
+													<ul>
+														<li>bola</li>
+														<li>sarung tangan kipper</li>
+														<li>sepatu bola</li>
+													</ul>
+												</li>
+												<li>surfing &amp; diving</li>
+												<li>tas olah raga / travel</li>
+												<li>sepeda</li>
+												<li>yoga &amp; pilates</li>
+												voli
+											</ul>
+										</li>
+										<li>perangkat outdoor</li>
+									</ul>
+								</td>
+							</tr>
+
+							<!-- unduh instant -->
+							<tr id="data-unduhinstant">
+								<td scope="row" style="text-transform: uppercase;font-weight:bold;" id="points--unduh-instant">
+									Unduh Instant
+								</td>
+								<td>
+									<ul>
+										<li>aplikasi</li>
+										<li>audio &amp; musik</li>
+										<li>kursus</li>
+										<li>paket pelatihan kebugaran</li>
+										<li>software / perangkat lunak</li>
+										<li>video</li>
+										<li>
+											e-voucher &amp; kupon
+											<ul>
+												<li>pulsa data</li>
+												<li>voucher belanja</li>
+												<li>travel &amp; tour</li>
+												<li>event</li>
+												<li>tiket</li>
+												<li>gaming</li>
+											</ul>
+										</li>
+										<li>fotografi</li>
+										<li>
+											tiket &amp; events
+											<ul>
+												<li>hiburan</li>
+											</ul>
+										</li>
+										<li>e-book &amp; media</li>
+										<li>e-money</li>
+									</ul>
+								</td>
+							</tr>
+
+							<!-- layanan jasa -->
+							<tr id="data-layananjasa">
+								<td scope="row" style="text-transform: uppercase;font-weight:bold;" id="points--layanan-jasa">layanan jasa</td>
+
+								<td>
+									<ul>
+										<li>jasa ide &amp; kreativitas</li>
+										<li>jasa tour &amp; travel dalam/luar negri</li>
+										<li>
+											jasa agen &amp; pemasaran digital
+											<ul>
+												<li>asuransi</li>
+											</ul>
+										</li>
+										<li>
+											jasa dekor
+											<ul>
+												<li>dekorasi acara pernikahan</li>
+												<li>dekorasi ulang tahun</li>
+												<li>dekorasi kamar pengantin</li>
+												<li>dekorasi sunatan</li>
+											</ul>
+										</li>
+										<li>
+											jasa konsultan
+											<ul>
+												<li>pajak</li>
+												<li>keuangan</li>
+												<li>hukum</li>
+												<li>konseling</li>
+											</ul>
+										</li>
+										<li>jasa logo design &amp; grafis</li>
+										<li>
+											jasa pembuatan gerobak &amp; tempat usaha
+											<ul>
+												<li>gerobak bakmi</li>
+												<li>gerobak minuman</li>
+											</ul>
+										</li>
+										<li>
+											jasa pembuatan pakaian
+											<ul>
+												<li>pembuatan pola pakaian</li>
+												<li>pembuatan pakaian muslim</li>
+												<li>pembuatan gaun pernikahan</li>
+												<li>pembuatan kostum</li>
+												<li>lainnya</li>
+											</ul>
+										</li>
+										<li>jasa pembuatan situs web, template</li>
+										<li>jasa seo</li>
+										<li>
+											jasa renovasi rumah
+											<ul>
+												<li>pengecatan rumah</li>
+												<li>bongkar dan renovasi rumah</li>
+												<li>sedot spiteng</li>
+												<li>buang puing</li>
+											</ul>
+										</li>
+										<li>jasa pengecekan &amp; perawatan mobil</li>
+										<li>jasa penitipan hewan peliharaan</li>
+										<li>jasa penulisan dokumen</li>
+										<li>
+											jasa penyalur
+											<ul>
+												<li>baby sister</li>
+												<li>merawat orang tua</li>
+												<li>infal lebaran</li>
+											</ul>
+										</li>
+										<li>jasa penyunting video &amp; ucapan elektronik</li>
+										<li>
+											jasa perbaikan &amp; pengecatan kendaraan
+											<ul>
+												<li>mobil</li>
+												<li>motor</li>
+												<li>perahu</li>
+											</ul>
+										</li>
+										<li>
+											jasa perencanaan acara
+											<ul>
+												<li>acara ulang tahun</li>
+												<li>acara pernikahan</li>
+												<li>acara outbound</li>
+												<li>acara khitanan</li>
+											</ul>
+										</li>
+										<li>jasa potong rambut panggilan</li>
+										<li>
+											jasa service &amp; perbaikan
+											<ul>
+												<li>perbaikan audio/video home theater</li>
+												<li>perbaikan komputer/PC/Mac</li>
+												<li>perbaikan kamera digital AC</li>
+												<li>perbaikan playstation &amp; PSP</li>
+												<li>perbaikan ponsel</li>
+												<li>perbaikan tablet</li>
+												<li>perbaikan TV</li>
+												<li>perbaikan Xbox</li>
+												<li>perbaikan kulkas &amp; box freezer</li>
+												<li>perbaikan mesin cuci</li>
+												<li>perbaikan jam tangan &amp; jam dinding</li>
+												<li>kipas angin, setrika &amp; kompor gas</li>
+												<li>jasa sewa gaun pernikahan pria &amp; wanita</li>
+												<li>
+													jasa sewa &amp; peminjaman alat
+													<ul>
+														<li>komputer &amp; laptop</li>
+														<li>alat perkebunan</li>
+														<li>mesin fotocopy</li>
+														<li>sepeda motor</li>
+														<li>mobil</li>
+														<li>perahu</li>
+														<li>box freezer</li>
+														<li>jasa sewa mobil loss back, truck, pribadi</li>
+													</ul>
+												</li>
+											</ul>
+										</li>
+										<li>jasa sewa kostum adat daerah</li>
+										<li>jasa terjemahan</li>
+										<li>jasa bisnis &amp; industri</li>
+										<li>
+											jasa kebersihan
+											<ul>
+												<li>membersihkan sampah</li>
+												<li>membersihkan taman</li>
+												<li>membersihkan lingkungan area tertentu</li>
+											</ul>
+										</li>
+										<li>jasa pembuatan stempel &amp; plat</li>
+										<li>
+											jasa kesehatan
+											<ul>
+												<li>urut refleksi</li>
+											</ul>
+										</li>
+									</ul>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</section>
+
+		<!-- elektronik -->
+					<!-- <section id="points--elektronik">
+						<div class="panel panel-default">  
+							<div class="panel-body">
+								<div class="table">
+									<table class="table table-striped" width="100%">
+										<thead>
+											<tr>
+												<th>kategori</th>
+												<th>sub kategori</th>
+												<th>kondisi</th>
+											</tr>
+										</thead>
+										<tbody>
+											<tr>
+												<td scope="row" style="text-transform: uppercase;" > elektronik </td>
+												
+											</tr>
+										</tbody>
+									</table>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section id="points--otomotif">
+						<h3>Kategori Otomotif</h3>
+						<p>...</p>
+					</section>
+					<section id="points--aneka-produk">
+						<h3>Kategori Aneka Produk</h3>
+						<p>...</p>
+					</section>
+					<section id="points--layanan-jasa">
+						<h3>Kategori Layanan Jasa</h3>
+						<p>...</p>
+					</section> -->
+					<!-- product categories -->
+
+					<h1 class="underline" style="margin-top: 15px;"></h1>
+					<section id="points--produk-detail">
+						<div class="row">
+							<div data-aos="flip-up"  data-aos-easing="linear"
+							data-aos-duration="1500">
+							<div class="col-md-offset-3">
+								<h2>Produk Detail</h2>
+								<p>Informasi mengenai produk detail yang bisa anda jual di marketplace syoobe.</p>
+							</div>
+						</div>
+						<div data-aos="flip-left" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+							<div class="col-md-offset-1">
+								<div class="polaroid">
+									<img src="https://syoobe.netlify.app/public/images/animated/anim25.gif" class="img-responsive">
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<h1 class="underline" style="margin-top: 15px;"></h1>
+
+					<div class="row">
+						<div class="col-md-8">
+							<div data-aos="fade-right" data-aos-easing="ease-in-sine" data-aos-duration="1500">
+								<div class="polaroid">
+									<img src="https://syoobe.netlify.app/public/images/animated/anim29.gif" class="img-responsive">
+								</div>
+							</div>
+						</div>
+
+						<div class="col-md-4">
+							<h2>Produk fisik</h2>
+							<p>
+								Produk fisik menyediakan semua aneka produk dalam kategori : <br>
+								<ul>
+									<li>Ponsel &amp; Tablet</li>
+									<li>Elektronik</li>
+									<li>Otomotif &amp; Suku Cadang</li>
+									<li>Aneka produk lainnya.</li>
+								</ul>
+							</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-12">
+							<div class="row">
+								<div class="col-md-offset-3">
+									<img src="https://syoobe.netlify.app/public/images/animated/anim23.gif" class="img-responsive">
+								</div>
+								<div class="col-md-4">
+									<blockquote class="blockquote-footer">General*</blockquote>
+									<div class="alert alert-danger" role="alert">
+										Pilih bagian apa yang mau anda jual : <br> Produk Fisik Atau Produk Digital
+									</div>									
+								</div>
+								<div class="col-md-6">
+									<div class="polaroid">
+										<img src="https://syoobe.netlify.app/public/images/animated/anim28.gif" class="img-responsive">
+									</div>
+								</div>
+							</div>
+
+							<div class="panel-group produk-detail" id="accordion" role="tablist" aria-multiselectable="true">
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingOne">
+										<h2 class="panel-title">
+											<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+												Produk Fisik
+											</a>
+										</h2>
+									</div>
+									<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+										<div class="panel-body">
+											<div class="row">
+												<div class="col-md-6">
+													<h2>
+														Adalah produk yang harus dikirim
+													</h2>
+													<br>
+													<h3>Nama Produk* :</h3>
+													<ol>
+														<li>Anda dapat meletakan judul produk anda</li>
+													</ol>
+													<br>
+
+													<h3>Kata kunci URL* : </h3> 
+													<details>
+														<summary>Lihat Detail <span class="glyphicon glyphicon-chevron-down"></span> </summary>
+														<ol>
+															<li>
+																<b>Merk Produsen* :</b>
+																<ol>
+																	<li>Merk produk menentukan produk anda, jika tidak ada pilihan maka anda dapat memilih merk lain</li>
+																</ol>
+															</li>
+															<li>
+																<b>Kategori Produk* :</b>
+																<ol>
+																	<li>Bagian ini akan membawa anda pada bagian produk yang akan di jual</li>
+																</ol>
+															</li>
+															<li>
+																<b>Harga Penjual* :</b>
+																<ol>
+																	<li>Harga penjual adalah Harga Pokok Barang + Biaya Transaksi = Harga Penjual</li>
+																</ol>
+															</li>
+															<li>
+																<b>Jumlah Stok Yang Ada* :</b>
+																<ol>
+																	<li>Sampaikan pada pembeli jumlah produk yang anda miliki dan kemudahan dalam pelacakan stok produk anda di toko</li>
+																</ol>
+															</li>
+															<li>
+																<b>Min Pembelian* :</b>
+																<ol>
+																	<li>Jumlah minimal pembelian</li>
+																</ol>
+															</li>
+															<li>
+																<b>Model* :</b>
+																<ol>
+																	<li>Kode Model produk anda</li>
+																</ol>
+															</li>
+															<li>
+																<b>SKU* :</b>
+																<ol>
+																	<li>Kode SKU produk anda</li>
+																</ol>
+															</li>
+															<li>
+																<b>Kondisi Produk* :</b>
+																<ol>
+																	<li>Tentukan produk anda apakah Baru, Bekas, Rekondisi, Tidak berfungsi atau barang rusak</li>
+																</ol>
+															</li>
+															<li>
+																<b>Deskripsi Produk* :</b>
+																<ol>
+																	<li>Isi dengan keterangan produk anda</li>
+																</ol>
+															</li>
+															<li>
+																<b>Rincian Ukuran dan Satuan Paket* :</b>
+																<ol>
+																	<li>Beri detail keterangan produk anda dari Panjang, Lebar dan Tinggi barang.</li>
+																</ol>
+															</li>
+															<li>
+																<b>Informasi Pengiriman Barang* :</b>
+																<ol>
+																	<li>Negara Asal</li>
+																	<li>Gratis Ongkir</li>
+																</ol>
+															</li>
+															<li>Pilih layanan pengiriman yang akan anda gunakan a</li>
+														</ol>
+													</details>
+													<br>
+
+													<h3>Optimasi Mesin Pencari* : </h3>
+													<details>
+														<summary>Lihat Detail <span class="glyphicon glyphicon-chevron-down"></span></summary>
+														<ol>
+															<li>
+																Nama Meta Tag* : 
+																<ol>
+																	<li>Meta Tag adalah  Judul Tag HTML yang berisi penjelasan singkat mengenai isi halaman website</li>
+																</ol>
+															</li>
+															<li>
+																Keterangan Meta Tag* :
+																<ol>
+																	<li>Keterangan Meta Tag adalah Tag HTML yang berisi penjelasan singkat mengenai isi halaman website</li>
+																</ol>
+															</li>
+															<li>
+																Kata Kunci Meta Tag* :
+																<ol>
+																	<li>Kata kunci sederhana dari penjelasan yang sudah anda isikan untuk memudahkan produk anda di temukan</li>
+																</ol>
+															</li>
+														</ol>
+													</details>
+													<br>
+
+													<h3>Data* : </h3>
+													<details>
+														<summary>Lihat Detail <span class="glyphicon glyphicon-chevron-down"></span></summary>
+														<ol>
+															<li>
+																Perhitungan Jumlah Stok 
+																<ol>
+																	<li>Jumlah Stok yang akan di lihat oleh pembeli</li>
+																</ol>
+															</li>
+															<li>
+																Lacak Stok Barang
+																<ol>
+																	<li>
+																		Pelacakan Jumlah Stok Barang anda di toko
+																		Bila anda memilih â€œtidakâ€ maka produk anda akan di pindahkan pada Item yang sementara tidak aktif pada mode pencarian
+																		(anda dapat menggunakan pilihan ini apabila toko anda sedang offline)
+																	</li>
+																</ol>
+															</li>
+															<li>
+																Jumlah Stok Produk Minimum <br>
+																<ol>
+																	<li>Anda dapat mengisi pilihan ini jika Lacak Stok barang dalam pilihan â€œLacakâ€ Isi minimal jumlah stok yang anda ingin tandai sehingga kami akan memberikan pemberitahuan jika stok berada di batas minimal yang anda tetapkan</li>
+																</ol>
+															</li>
+															<li>
+																Video Youtube
+																<ol>
+																	<li>Menyertakan Video Youtube akan membantu pelanggan anda melihat lebih detail produk anda</li>
+																</ol>
+															</li>
+															<li>
+																Tanggal Tersedia
+																<ol>
+																	<li>Tanggal tersedia produk anda</li>
+																</ol>
+															</li>
+															<li>
+																Produk Dalam Stok
+																<ol>
+																	<li>Jumlah Produk yang anda miliki saat ini</li>
+																</ol>
+															</li>
+															<li>
+																Tampilkan Pesanan
+																<ol>
+																	<li>Menampilkan urutan produk barang pada display toko</li>
+																</ol>
+															</li>
+															<li>
+																Penyaringan Produk
+																<ol>
+																	<li>Penyaringan produk adalah kategori yang akan dicantumkan pada produk</li>
+																</ol>
+															</li>
+															<li>
+																Produk Produk Terkait
+																<ol>
+																	<li>Produk terkait adalah penyaringan dari produk-produk yang berkaitan.</li>
+																</ol>
+															</li>
+														</ol>
+													</details>
+													<br>
+
+													<h3>Spesifikasi Produk* : </h3>
+													<details>
+														<summary>Lihat Detail <span class="glyphicon glyphicon-chevron-down"></span></summary>
+														<ol>
+															<li>
+																Perhitungan Jumlah Stok 
+																<ol>
+																	<li>Jumlah Stok yang akan di lihat oleh pembeli</li>
+																</ol>
+															</li>
+															<li>
+																Lacak Stok Barang
+																<ol>
+																	<li>
+																		Pelacakan Jumlah Stok Barang anda di toko
+																		Bila anda memilih â€œtidakâ€ maka produk anda akan di pindahkan pada Item yang sementara tidak aktif pada mode pencarian
+																		(anda dapat menggunakan pilihan ini apabila toko anda sedang offline)
+																	</li>
+																</ol>
+															</li>
+															<li>
+																Jumlah Stok Produk Minimum <br>
+																<ol>
+																	<li>Anda dapat mengisi pilihan ini jika Lacak Stok barang dalam pilihan â€œLacakâ€ Isi minimal jumlah stok yang anda ingin tandai sehingga kami akan memberikan pemberitahuan jika stok berada di batas minimal yang anda tetapkan</li>
+																</ol>
+															</li>
+															<li>
+																Video Youtube
+																<ol>
+																	<li>Menyertakan Video Youtube akan membantu pelanggan anda melihat lebih detail produk anda</li>
+																</ol>
+															</li>
+															<li>
+																Tanggal Tersedia
+																<ol>
+																	<li>Tanggal tersedia produk anda</li>
+																</ol>
+															</li>
+															<li>
+																Produk Dalam Stok
+																<ol>
+																	<li>Jumlah Produk yang anda miliki saat ini</li>
+																</ol>
+															</li>
+															<li>
+																Tampilkan Pesanan
+																<ol>
+																	<li>Menampilkan urutan produk barang pada display toko</li>
+																</ol>
+															</li>
+															<li>
+																Penyaringan Produk
+																<ol>
+																	<li>Penyaringan produk adalah kategori yang akan dicantumkan pada produk</li>
+																</ol>
+															</li>
+															<li>
+																Produk Produk Terkait
+																<ol>
+																	<li>Produk terkait adalah penyaringan dari produk-produk yang berkaitan.</li>
+																</ol>
+															</li>
+														</ol>
+													</details>
+
+													<h5>Spesifikasi Produk* : </h5>
+
+													<ol>
+														<li>
+															Spesifikasi &amp; Text
+															<ol>
+																<li>Adalah informasi produk yang berkaitan dengan produk lebih detail seperti yang terdapat dalam pilihan spesifikasi, penjual dapat mengosongkan fitur ini juka tidak ada spesikasi barang</li>
+															</ol>
+														</li>
+													</ol>
+													<br><br>
+
+													<h3>Kompatibilitas* : </h3>
+													<details>
+														<summary>Lihat Detail <span class="glyphicon glyphicon-chevron-down"></span></summary>
+														<ol>
+															<li>
+																Anda dapat mengisikan pilihan kompabilitas yang sesuai dengan ketersedian database di kami, jika anda tidak menemukanya bagian yang anda butuhkan <b>ajukan permintaan baru</b> kepada kami.
+																<ol>
+																	<li>Ban Mobil</li>
+																	<li>Ponsel &amp; Tablets</li>
+																	<li>Sparepart Mobil</li>
+																	<li>Sparepart Motor</li>
+																	<li>Tinta Printer Catridge</li>
+																</ol>
+															</li>
+														</ol>
+													</details>
+													<br>
+
+													<h3>Pilihan: </h3>
+													<details>
+														<summary>Lihat Detail <span class="glyphicon glyphicon-chevron-down"></span></summary>
+														<ol>
+															<li>
+																Buat Opsi / Varian Baru
+																<ol>
+																	<li>
+																		Nilai Opsi
+																		<ol>
+																			<li>Keterangan Pilihan</li>
+																		</ol>
+																	</li>
+																	<li>
+																		Jumlah Produk
+																		<ol>
+																			<li>Jumlah Produk Barang</li>
+																		</ol>
+																	</li>
+																	<li>
+																		Mengurangi
+																		<ol>
+																			<li>Mengurangi atau menambahkan stok</li>
+																		</ol>
+																	</li>
+																	<li>
+																		Harga
+																		<ol>
+																			<li>Harga +/-</li>
+																		</ol>
+																	</li>
+																</ol>
+															</li>
+															<li>Bila produk anda lebih mahal dari ketetapan harga produk, anda dapat  tambah/kurang dengan tanda +/- harga pada produk tertentu di pilihan varian ini dan begitu juga sebaliknya.</li>
+															<li>
+																<div class="alert alert-success">
+																	(Contoh : sepatu dengan ukuran 40 memiliki selisih harga Rp. 2.000, maka pada ukuran sepatu No. 40 anda dapat menambahkan )
+																	<ol>
+																		<li>
+																			Berat
+																			<ol>
+																				<li>menambah berat / mengurangi berat barang</li>
+																			</ol>
+																		</li>
+																	</ol>
+																</div>
+															</li>
+														</ol>
+													</details>
+													<br>
+
+													<h3>Pengembalian : </h3>
+													<details>
+														<summary>Lihat Detail <span class="glyphicon glyphicon-chevron-down"></span></summary>
+														<ol>
+															<li>
+																Terima Pengembalian
+																<ol>
+																	<li>Fitur ini dapat di isi Ya / Tidak</li>
+																</ol>
+															</li>
+															<li>
+																Durasi Pengembalian
+																<ol>
+																	<li>Hari pengembalian dapat diatur sesuai kebijakan toko masing-masing</li>
+																</ol>
+															</li>
+															<li>
+																Biaya Pengembalian di tanggung oleh?
+																<ol>
+																	<li>Biaya pengembalian dapat di atur oleh penjual</li>
+																</ol>
+															</li>
+															<li>
+																Apakah Anda Membebankan Biaya Penyetokan Ulang?
+																<ol>
+																	<li>Jika anda memiliki biaya untuk penyetokan ulang maka anda dapat mengaturnya disini.</li>
+																</ol>
+															</li>
+														</ol>
+													</details>
+													<br>
+
+													<h3>Manajemen Diskon : </h3>
+													<details>
+														<summary>Lihat Detail <span class="glyphicon glyphicon-chevron-down"></span></summary>
+														<ol>
+															<li>
+																<b>Qty Discount </b>
+																<ol>
+																	<li>
+																		<table class="table-bordered" style="width:10vw; font-size: 11px;">
+																			<tr>
+																				<th>Jumlah Produk</th>
+																				<th>Urutan Produk</th>
+																				<th>Harga</th>
+																				<th>Tanggal Mulai</th>
+																				<th>Tanggal Akhir</th>
+																			</tr>
+																			<tr>
+																				<td>Jumlah Produk</td>
+																				<td>No Urut Produk Pada List Table</td>
+																				<td>Harga Diskon</td>
+																				<td>Tgl Mulai</td>
+																				<td>Tgl Akhir</td>
+																			</tr>
+																		</table>
+																		<small class="text-danger">Diskon Jumlah Massal untuk jumlah produk lebih dari 1 dan dapat diatur berdasarkan tanggal</small>
+																	</li>
+																</ol>
+															</li>
+															<li>
+																<b>Special Discount</b>
+																<ol>
+																	<li>
+																		<table class="table-bordered" style="width:10vw; font-size: 11px;">
+																			<tr>
+																				<th>Urutan Produk</th>
+																				<th>Harga</th>
+																				<th>Tanggal Mulai</th>
+																				<th>Tanggal Akhir</th>
+																			</tr>
+																			<tr>
+																				<td>No Urut Produk pada list tabel</td>
+																				<td>Harga Diskon</td>
+																				<td>Tgl Mulai</td>
+																				<td>Tgl Akhir</td>
+																			</tr>
+																		</table>
+																		<small class="text-danger">Diskon Khusus untuk harga 1 produk dan dapat diatur berdasarkan tanggal</small>
+																	</li>
+																</ol>
+															</li>
+														</ol>
+													</details>
+												</div>
+
+												<!-- image -->
+												<div class="col-md-offset-6">
+													<div class="polaroid">
+														<img src="https://syoobe.netlify.app/public/images/animated/anim27.gif" class="img-responsive">
+													</div>
+												</div>
+
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingTwo">
+										<h2 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+												Produk Digital
+											</a>
+										</h2>
+									</div>
+									<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+										<div class="panel-body">
+											<div class="row">
+												<div class="col-md-4">
+													<h3>Nama Produk* : </h3>
+													<ol>
+														<li>Anda dapat meletakan judul/nama produk anda disini</li>
+													</ol>
+													<br>
+
+													<h4>Metode Unggahan* : </h4>
+													<br>
+													<h3>Unduh Instant</h3>
+													<p>Jika anda memiliki hasil karya dan kreativitas seperti : </p>
+													<details>
+														<summary>Lihat Detail <span class="glyphicon glyphicon-chevron-down"></span></summary>
+														<ol>
+															<li>karya tulis/e-book</li>
+															<li>Fotografi</li>
+															<li>Audio</li>
+															<li>Software</li>
+															<li>Games</li>
+														</ol>
+														Anda dapat menampilkan pada kategori produk <b>unduh instant</b> ditampilan toko anda yang dapat dipertanggungjawabkan
+													</details>
+													<br>
+												</div>
+
+												<div class="col-md-8">
+													<img src="https://syoobe.netlify.app/public/images/animated/anim8.gif" class="img-responsive">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="panel panel-default">
+									<div class="panel-heading" role="tab" id="headingThree">
+										<h2 class="panel-title">
+											<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+												Layanan Jasa
+											</a>
+										</h2>
+									</div>
+									<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+										<div class="panel-body">
+											<div class="row">
+												<div class="col-md-4">
+													<h2>Jika anda menjual produk layanan jasa anda diharuskan memulai dengan judul : </h2>
+													<blockquote class="blockquote-footer text-info">â€œSaya akan membuat layanan jasaâ€</blockquote>
+
+													<details>
+														<summary>Lihat Detail <span class="glyphicon glyphicon-chevron-down"></span></summary>
+														<ol>
+															<li>
+																Untuk layanan jasa online anda dapat menyelesaikan pekerjaan anda kepada pemesan dengan mengunggah hasil kerja anda pada file produksi yang sudah disediakan dengan cara ini anda akan menyelesaikan transaksi ini
+															</li>
+															<li>
+																Untuk layanan jasa offline atau yang mengharuskan anda datang untuk melayani pesanan maka anda diharuskan untuk memberikan bukti pelayanan anda setelah anda menyelesaikan hasil kerja dan anda harus mengungah file pada file produksi kepada pelanggan sebagai bukti hasil kerja anda telah selesai, bisa berupa foto, invoice yang akurat dan dapat dipertanggung jawabkan keabsahannya.
+																<ol>
+																	<li>
+																		Kata Kunci URL*
+																		<ol>
+																			<li>Kata kunci URL diperlukan</li>
+																		</ol>
+																	</li>
+																	<li>
+																		Kategori Produk*
+																		<ol>
+																			<li>Bagian ini akan membawa anda pada bagian produk yang akan di jual
+																			Hanya di cantumkan pada unduh instant</li>
+																		</ol>
+																	</li>
+																	<li>
+																		Harga penjualan [Rp]
+																		<ol>
+																			<li>Harga penjualan adalah Harga Pokok Barang + Biaya Transaksi =  Harga Penjualan</li>
+																		</ol>
+																	</li>
+																	<li>
+																		Gambar Produk
+																		<ol>
+																			<li>Gambar dari produk yang anda jual</li>
+																		</ol>
+																	</li>
+																	<li>
+																		Deskripsi Produk
+																		<ol>
+																			<li>Berisi keterangan untuk produk unduh isntan atau layanan jasa yang akan anda jual</li>
+																		</ol>
+																	</li>
+																	<li>
+																		Download Name/File
+																		<ol>
+																			<li>
+																				<table class="table-bordered" style="width:10vw; font-size: 11px;">
+																					<tr>
+																						<th>Nama Unduhan</th>
+																						<th>Nama File</th>
+																						<th>Batas Unduhan Berlaku</th>
+																						<th>Keabsahan Hari</th>
+																					</tr>
+																					<tr>
+																						<td>Nama File yang akan di unduh</td>
+																						<td>Nama File</td>
+																						<td>Batas Unduhan</td>
+																						<td>Hari yang anda berikan untuk batas kadaluarsa</td>
+																					</tr>
+																				</table>
+																			</li>
+																		</ol>
+																	</li>
+																</ol>
+															</li>
+														</ol>
+													</details>
+												</div>
+
+												<!-- image -->
+												<div class="col-md-8">
+													<img src="https://syoobe.netlify.app/public/images/animated/anim30.gif" class="img-responsive">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+						<h1 class="underline" style="margin-top: 5px;"></h1>
+						<br><br>
+
+
+						<div class="row">
+							<div class="col-md-8">
+								<img src="https://syoobe.netlify.app/public/images/vector_image/vector5.jpg" class="img-responsive">	
+							</div>
+
+							<div class="col-md-4">
+								<h2>Refferal</h2>
+								<p>
+									Untuk setiap pembeli atau penjual yang ingin mendukung program Syoobe, bagikan dan dapatkan maka kami akan memberikan penghargaan senilai Rp.25.000 dalam bentuk reward point yang dapat digunakan untuk pembelian barang dan tidak dapat dicairkan bila salah satu dari mereka mendaftar di syoobe.
+									Anda dapat membagikan melalui facebook, twitter ataupun email
+								</p>
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-6">
+								<h2>Affiliate</h2>
+								<p>
+									adalah link yang dapat dibagikan pada blog atau wesite yang orang lain miliki untuk mempromosikan produk syoobe dan anda akan mendapatkan presentase melalui saldo dana
+								</p>
+							</div>
+
+							<div class="col-md-6">
+								<img src="https://syoobe.netlify.app/public/images/vector_image/vector4.jpg" class="img-responsive">
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-8">
+								<img src="https://syoobe.netlify.app/public/images/vector_image/vector6.jpg" class="img-responsive">
+							</div>
+							<div class="col-md-4">
+								<h2>Penarikan dana</h2>
+								<p>
+									Pembeli atau penjual dapat mengajukan penarikan dana 1 x 24 jam.
+									Kami hanya dapat melayani melalui 3 (tiga) rekening bank a/n <b>PT. Syoobe Inti Perdana</b>
+									yaitu BCA, Mandiri dan BRI
+
+									Diluar ketiga bank ini kami akan mebebankan biaya transfer dana sebesar biaya transfer bank yang ditetapkan oleh bank yang anda pilih.
+								</p>
+							</div>
+						</div>
+
+						
+
+						<h1 class="underline" style="margin-top: 15px;"></h1>
+
+						<div class="row">
+							<div data-aos="fade-right" data-aos-easing="linear">
+								<div class="col-md-8">
+									<img src="https://syoobe.netlify.app/public/images/vector_image/vector2.jpg" class="img-responsive">
+								</div>
+							</div>
+							<div data-aos="flip-left" data-aos-easing="ease-out-cubic">
+								<div class="col-md-offset-6">
+									<h2>Manajemen Perselisihan</h2>
+									<p>
+										Pembeli dapat mengajukan permintaan pembatalan pembelian dalam kurun waktu 2 jam setelah pembelian selama penjual belum memproses pembelian, tetapi jika sudah di proses maka pembeli dapat mengajukan pengembalian produk setelah barang diterima.
+
+										Untuk permintaan pengembalian dana setelah pengembalian barang dana akan kembali ke saldo dompet pembeli.
+										Pengembalian dana dikarenakan  perselisihan maka perhitungan kupon ataupun poin reward dianggap hangus, tetapi nilai uang yang dikembalikan adalah nilai uang dibayarkan oleh pembeli. <br>
+										<strong>contoh :</strong>
+										<div class="alert alert-info">
+											<ul>
+												<li>Pembelian produk senilai Rp. 10.000 dengan potongan kupon ataupun reward point sebesar Rp. 2000 maka nilai yang dibayar adalah Rp. 8.000 maka pengembalian adalah Rp. 8.000</li>
+												<li>sedangkan kupon ataupun reward senilai 2.000 dianggap hangus</li>
+											</ul>
+										</div>
+									</p>
+								</div>
+							</div>
+
+						</div>
+
+						<br><br><br>
+
+						<div class="row">
+							<div data-aos="flip-right">
+								<div class="col-md-4">
+									<h2>Cara Mendapatkan Pelanggan</h2>
+									<ul>
+										<li>Menjadi Toko Unggulan</li>
+										<li>Beri pelayanan yang cepat dalam pengiriman barang</li>
+										<li>Design dan layanan jasa yang unik dan menarik</li>
+										<li>Harga bersaing dan pelayanan yang memuaskan</li>
+									</ul>
+								</div>
+							</div>
+							<div data-aos="flip-up">
+								<div class="col-md-offset-6">
+									<img src="https://syoobe.netlify.app/public/images/vector_image/vector1.jpg" class="img-responsive">
+								</div>
+							</div>
+						</div>
+
+						<br><br><br>
+
+						<div class="row">
+							<div data-aos="flip-right" data-aos-easing="ease-out-cubic">
+								<div class="col-md-8">
+									<img src="https://syoobe.netlify.app/public/images/vector_image/vector6.jpg" class="img-responsive">
+								</div>
+							</div>
+							<div data-aos="flip-left">
+								<div class="col-md-offset-8">
+									<h2>Semua hal yang anda dapatkan setelah produk, unduh instant dan layanan jasa anda terjual</h2>
+									<ul>
+										<li>Setelah Penjualan 10 produk pertama dengan peringkat yang baik anda dapat mengajukan penghapusan batas penjualan dengan masuk ke menu pusat bantuan</li>
+										<li>Dapatkan Komentar atau respon pelanggan</li>
+										<li>Kepuasan anda sebagai penjual dan penyedia layanan jasa</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</section>
+
+				</section>
+				<!-- end points -->
+				<!-- end product categories -->
+
+				<!-- Links  -->
+					<!-- <section id="links">
+						<h2>Links</h2>
+						<p>ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦</p>
+					</section>
+					<section id="expanders">
+						<h2>Expanders</h2>
+						<p>ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦</p>
+					</section>
+					<section id="filters">
+						<h2>Filters</h2>
+						<p>ÃƒÂ¢Ã¢â€šÂ¬Ã‚Â¦</p>
+					</section> -->
+				</div>
+
+
+
+				<nav class="section-nav">
+					<ul>
+						<li><a href="#introduction">Intro</a>
+							<ul class="introduce">
+								<li><a href="#intro-start" class="page-scroll">Buat Rencana Besar</a></li>
+								<li><a href="#request-response" class="page-scroll">Tunjukan Strategimu</a></li>
+								<li><a href="#authentication" class="page-scroll">Buat Akun</a></li>
+							</ul>
+						</li>
+						<!-- intro navigation -->
+						
+
+						<!-- points navigation -->
+						<li>
+							<a href="#points" class="page-scroll">Points</a>
+							<ul class="product">
+								<li class=""><a href="#points--root" class="page-scroll">Menambahkan Produk</a></li>
+
+								<!-- category -->
+								<li class="category">
+									<a href="#points--categories" data-toggle="collapse" data-target="#category" class="page-scroll">Produk &nbsp;Kategori &nbsp; <span class="glyphicon glyphicon-plus"></span>
+									</a>
+									<ul id="category" class="collapse">
+										<li class=""><a href="#points--ponsel" class="page-scroll">Ponsel &amp; Tablet</a></li>
+										<li class=""><a href="#points--elektronik" class="page-scroll">Elektronik</a></li>
+										<li class=""><a href="#points--otomotif" class="page-scroll">Otomotif</a></li>
+										<li class=""><a href="#points--anekaproduk" class="page-scroll">Aneka Produk</a></li>
+										<li class=""><a href="#points--unduh-instant" class="page-scroll">Unduh Instant</a></li>
+										<li class=""><a href="#points--layanan-jasa" class="page-scroll">Layanan Jasa</a></li>
+									</ul>
+								</li>
+
+								<!-- produk detail -->
+								<li class=""><a href="#points--produk-detail" class="page-scroll">Produk Detail</a></li>
+
+								<!-- gabung -->
+								<li class=""><a href="#gabung" class="page-scroll">Gabung Syoobe</a></li>
+							</ul>
+						</li>
+						<!-- <li class=""><a href="#links" class="page-scroll">Links</a></li>
+						<li class=""><a href="#expanders" class="page-scroll">Expanders</a></li>
+						<li class=""><a href="#filters" class="page-scroll">Filters</a></li> -->
+					</ul>
+
+					<!-- <svg class="toc-marker" width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+						<path stroke="#444" stroke-width="3" fill="transparent" stroke-dasharray="0, 0, 0, 1000" stroke-linecap="round" stroke-linejoin="round" transform="translate(-0.5, -0.5)" />
+					</svg> -->
+				</nav>
+			</main>
+
+			<section id="gabung">
+				<!-- <footer class="footer-content">
+					<div class="container">
+						<div class="row">
+							<div class="content-footer">
+								<div class="col-md-4 col-sm-12 col-xs-12">
+									<h2>Kami hadir dalam setiap kebutuhan yang anda perlukan</h2>
+									<blockquote class="blockquote-footer text-info">
+										Mari bergabung bersama kami 
+									</blockquote>
+									<a href="https://syoobe.co.id/user/account" class="btn btn-block btn-primary">
+										<h4>
+											<span class="glyphicon glyphicon-bullhorn"></span> Gabung Syoobe
+										</h4>
+									</a>
+								</div>
+								<div class="col-md-6 col-sm-12 col-xs-12">
+									<div data-aos="fade-right" data-aos-easing="ease-in-sine">
+										<div class="polaroid">
+											<img src="https://syoobe.netlify.app/public/images/vector_image/vector9.jpg" class="img-responsive">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer> -->
+
+				<h1 class="underline" style="margin-top: 15px;"></h1>
+
+				<div id="footer">
+					<div class="parallax2" style="background-image: url(public/images/header/model3.1.jpg)">
+						<div class="caption2">
+							<br/><br/>
+							<h2 style="font-family:SpringSakura;color:#000;">Kami  hadir  dalam setiap  kebutuhan yang <br> anda perlukan </h2>
+							<blockquote class="blockquote-footer text-success">
+								<footer style="color:firebrick; font-family: SpringSakura; font-size: 30px;">
+									Mari bergabung <br>  bersama  kami <br>  {[]} 
+								</footer>
+							</blockquote>
+							<a href="https://syoobe.co.id/user/account" class="btn btn-danger text-white">
+								<h3 style="font-weight: 900;">
+									<i class="fas fa-bullhorn"></i> Mari gabung
+								</h3>
+							</a>
+							<br/><br/>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<footer>
+				<div id="footer-data">
+					<div class="container">
+						<div class="row">
+							<div class="col-3">
+								<img :src="footer.logo" class="img-responsive">
+							</div>
+							<div class="col-4">
+								<h1 :style="footer.style">
+									&copy;{{footer.year}}&nbsp;{{footer.content}}
+								</h1>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<style type="text/css">
+				section p{
+					text-align: justify !important;
+				}
+			</style>
+
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+			<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+			<script>
+				AOS.init();
+			</script>
+			<script type="text/javascript" src="public/js/jquery.easing.js"></script>
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script> -->
+    	<script src="public/js/script.js"></script>
+    	<script type="text/javascript" src="public/js/smooth.js"></script>
+    	<script type="text/javascript" src="public/js/scrollNav.js"></script>
+    	<script type="text/javascript" src="public/js/tableFixed.js"></script>
+    	<script type="text/javascript" src="public/js/new_script.js"></script>
+    	<!-- Third party scripts and sharing UI -->
+
+
+    </body>
+
+    </html>
+</div>
