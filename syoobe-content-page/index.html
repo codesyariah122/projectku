@@ -2124,28 +2124,27 @@
 							<br/><br/>
 						</div>
 					</div>
+					<footer>
+						<div id="footer-data">
+							<div class="container">
+								<div class="row">
+									<div class="col-4">
+										<h1 :style="footer.style">
+											&copy;{{footer.year}}&nbsp;{{footer.content}}
+										</h1>
+									</div>
+								</div>
+							</div>
+
+							<button v-on:click="backToTop()" id="myBtn" title="Go to top">
+								<span class="glyphicon glyphicon-chevron-up"></span>
+							</button>
+
+						</div>
+					</footer>
 				</div>
 			</section>
 
-
-			<footer>
-				<div id="footer-data">
-					<div class="container">
-						<div class="row">
-							<div class="col-4">
-								<h1 :style="footer.style">
-									&copy;{{footer.year}}&nbsp;{{footer.content}}
-								</h1>
-							</div>
-						</div>
-					</div>
-
-					<button v-on:click="backToTop()" id="myBtn" title="Go to top">
-						<span class="glyphicon glyphicon-chevron-up"></span>
-					</button>
-
-				</div>
-			</footer>
 
 			<style type="text/css">
 				section p{
