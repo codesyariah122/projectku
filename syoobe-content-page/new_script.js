@@ -23,7 +23,7 @@ new Vue({
 			this.footer.year = this.date.getFullYear()
 			this.footer.content = "Hak Cipta Terpelihara PT Syoobe"
 		},
-		
+
 		backToTop(){
 			document.body.scrollTop = 0;
 			document.documentElement.scrollTop = 0;
@@ -64,47 +64,6 @@ new Vue({
 
 })
 
-new Vue({
-	el: '#data-ponsel',
-	data: {
-		ponsels: []
-	},
-
-	mounted(){
-		this.getDataKategori()
-	},
-
-	methods: {
-		getDataKategori(){
-			this.ponsels = [{
-							 data: `
-								<ul>
-								<li>
-								aksesoris tablet
-								<ul>
-								<li>komponen tablet</li>
-								</ul>
-								</li>
-								<li>casing tablet</li>
-								<li>komponen ponsel &amp; tablet</li>
-								<li>memory card</li>
-								<li>ponsel</li>
-								<li>tablet</li>
-								<li>
-								aksesories ponsel
-								<ul>
-								<li>komponen ponsel</li>
-								<li>kartu perdana</li>
-								<li>smartwatch</li>
-								<li>kartu memory</li>
-								</ul>
-								</li>
-								</ul>
-								`
-							}]
-		}
-	}
-})
 
 // new Vue({
 // 	el: '#app',
