@@ -36,7 +36,7 @@
 			<div class="jumbotron jumbotron-fluid jumbotron-content" :style="jumbotron.style">
 				<div class="container">
 					<a href="https://syoobe.co.id">
-						<img src="https://www.syoobe.co.id/image/site_logo/www.syoobe5.jpg" class="img-responsive syoobe-logo">
+						<img :src="jumbotron.data.logo" class="img-responsive syoobe-logo">
 					</a>
 					<div class="row no-gutters justify-content-center">
 						<div class="col-md-6 col-xs-12 col-sm-12">
@@ -125,7 +125,7 @@
 					<div class="row">
 						<div class="col-md-8">
 							<div data-aos="flip-down" data-aos-easing="ease-in-sine" data-aos-duration="1500">
-								<img src="https://syoobe.netlify.app/public/images/animated/anim3.gif" class="img-responsive">
+								<img src="https://syoobe.netlify.app/public/images/animated/anim3.gif" class="img-responsive" width="100%">
 							</div>
 						</div>
 						<div data-aos="zoom-in-left" data-aos-easing="ease-out-cubic" data-aos-duration="1500">
@@ -152,17 +152,8 @@
 
 					<div data-aos="flip-left" data-aos-easing="ease-in-sine" data-aos-duration="1500">
 						<div class="row">
-							<div class="col-12">
-								<div class="polaroid">
-									<img src="https://syoobe.netlify.app/public/images/animated/anim11.gif" class="img-responsive">
-									<div class="polaroid-body">
-										<blockquote class="text-center blockquote-footer" style="font-size: 21px; font-family:SpringSakura;margin-top:-2rem!important;">
-									<span style='font-family:SpringSakura; color:salmon;font-weight:normal;'>[{</span>
-									Kami merupakan media yang ramah bagi  kalangan kreatif. <span style='font-family:SpringSakura; color: salmon;'>|"</span>
-								</blockquote>
-									</div>
-								</div>
-								
+							<div class="col-md-offset-3">
+								<img src="https://syoobe.netlify.app/public/images/animated/anim11.gif" class="img-responsive">	
 							</div>
 						</div>
 					</div>
