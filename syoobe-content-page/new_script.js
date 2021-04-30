@@ -54,7 +54,7 @@ new Vue({
 			},
 			data: {
 				header: "Mengapa pilih Syoobe",
-				logo: "https://www.syoobe.co.id/image/site_logo/www.syoobe5.jpg",
+				logo: "https://app.syoobe.co.id/public/images/logo_become_seller.png",
 				brand: "Syoobe",
 				context: {
 					intro: "adalah market place yang menawarkan penjualan produk fisik dan produk digital,",
