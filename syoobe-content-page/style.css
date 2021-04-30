@@ -311,7 +311,7 @@ main > nav {
     /*clip-path: polygon(50% 0%, 100% 0, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);*/
     /*clip-path: polygon(55% 0, 100% 0, 100% 43%, 94% 78%, 68% 100%, 0 100%, 0 47%, 0 0, 16% 0);*/
     /*min-width: 105vw;*/
-    min-height: 600px; 
+    min-height: 500px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -529,7 +529,7 @@ main > nav {
       background-color: red;
       color: white;
       cursor: pointer;
-      padding: 15px;
+      padding: 10px;
       border-radius: 4px;
     }
 
