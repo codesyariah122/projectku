@@ -7,8 +7,10 @@ new Vue({
 			year: "",
 			content: "",
 			style: {
-				'font-size': '14px',
-				'margin-top': '10rem'
+				'font-size': '16px',
+				'margin-top': '-2rem',
+				'color': '#000',
+				'text-align': 'center'
 			}
 		}
 	},
