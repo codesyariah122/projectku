@@ -36,7 +36,7 @@
 			<div class="jumbotron jumbotron-fluid jumbotron-content" :style="jumbotron.style">
 				<div class="container">
 					<a href="https://syoobe.co.id">
-						<img src="https://www.syoobe.co.id/image/site_logo/www.syoobe5.jpg" class="img-responsive syoobe-logo">
+						<img :src="jumbotron.data.logo" class="img-responsive syoobe-logo">
 					</a>
 					<div class="row no-gutters justify-content-center">
 						<div class="col-md-6 col-xs-12 col-sm-12">
@@ -1949,70 +1949,57 @@
 						<h1 class="underline" style="margin-top: 15px;"></h1>
 
 						<div class="row">
-							<div data-aos="fade-right" data-aos-easing="linear">
-								<div class="col-md-8">
-									<img src="https://syoobe.netlify.app/public/images/vector_image/vector2.jpg" class="img-responsive">
-								</div>
+							<div class="col-md-8">
+								<img src="https://syoobe.netlify.app/public/images/vector_image/vector2.jpg" class="img-responsive">
 							</div>
-							<div data-aos="flip-left" data-aos-easing="ease-out-cubic">
-								<div class="col-md-offset-6">
-									<h2>Manajemen Perselisihan</h2>
-									<p>
-										Pembeli dapat mengajukan permintaan pembatalan pembelian dalam kurun waktu 2 jam setelah pembelian selama penjual belum memproses pembelian, tetapi jika sudah di proses maka pembeli dapat mengajukan pengembalian produk setelah barang diterima.
+							<div class="col-md-offset-6">
+								<h2>Manajemen Perselisihan</h2>
+								<p>
+									Pembeli dapat mengajukan permintaan pembatalan pembelian dalam kurun waktu 2 jam setelah pembelian selama penjual belum memproses pembelian, tetapi jika sudah di proses maka pembeli dapat mengajukan pengembalian produk setelah barang diterima.
 
-										Untuk permintaan pengembalian dana setelah pengembalian barang dana akan kembali ke saldo dompet pembeli.
-										Pengembalian dana dikarenakan  perselisihan maka perhitungan kupon ataupun poin reward dianggap hangus, tetapi nilai uang yang dikembalikan adalah nilai uang dibayarkan oleh pembeli. <br>
-										<strong>contoh :</strong>
-										<div class="alert alert-info">
-											<ul>
-												<li>Pembelian produk senilai Rp. 10.000 dengan potongan kupon ataupun reward point sebesar Rp. 2000 maka nilai yang dibayar adalah Rp. 8.000 maka pengembalian adalah Rp. 8.000</li>
-												<li>sedangkan kupon ataupun reward senilai 2.000 dianggap hangus</li>
-											</ul>
-										</div>
-									</p>
-								</div>
-							</div>
-
-						</div>
-
-						<br><br><br>
-
-						<div class="row">
-							<div data-aos="flip-right">
-								<div class="col-md-4">
-									<h2>Cara Mendapatkan Pelanggan</h2>
-									<ul>
-										<li>Menjadi Toko Unggulan</li>
-										<li>Beri pelayanan yang cepat dalam pengiriman barang</li>
-										<li>Design dan layanan jasa yang unik dan menarik</li>
-										<li>Harga bersaing dan pelayanan yang memuaskan</li>
-									</ul>
-								</div>
-							</div>
-							<div data-aos="flip-up">
-								<div class="col-md-offset-6">
-									<img src="https://syoobe.netlify.app/public/images/vector_image/vector1.jpg" class="img-responsive">
-								</div>
+									Untuk permintaan pengembalian dana setelah pengembalian barang dana akan kembali ke saldo dompet pembeli.
+									Pengembalian dana dikarenakan  perselisihan maka perhitungan kupon ataupun poin reward dianggap hangus, tetapi nilai uang yang dikembalikan adalah nilai uang dibayarkan oleh pembeli. <br>
+									<strong>contoh :</strong>
+									<div class="alert alert-info">
+										<ul>
+											<li>Pembelian produk senilai Rp. 10.000 dengan potongan kupon ataupun reward point sebesar Rp. 2000 maka nilai yang dibayar adalah Rp. 8.000 maka pengembalian adalah Rp. 8.000</li>
+											<li>sedangkan kupon ataupun reward senilai 2.000 dianggap hangus</li>
+										</ul>
+									</div>
+								</p>
 							</div>
 						</div>
 
 						<br><br><br>
 
 						<div class="row">
-							<div data-aos="flip-right" data-aos-easing="ease-out-cubic">
-								<div class="col-md-8">
-									<img src="https://syoobe.netlify.app/public/images/vector_image/vector6.jpg" class="img-responsive">
-								</div>
+							<div class="col-md-4">
+								<h2>Cara Mendapatkan Pelanggan</h2>
+								<ul>
+									<li>Menjadi Toko Unggulan</li>
+									<li>Beri pelayanan yang cepat dalam pengiriman barang</li>
+									<li>Design dan layanan jasa yang unik dan menarik</li>
+									<li>Harga bersaing dan pelayanan yang memuaskan</li>
+								</ul>
 							</div>
-							<div data-aos="flip-left">
-								<div class="col-md-offset-8">
-									<h2>Semua hal yang anda dapatkan setelah produk, unduh instant dan layanan jasa anda terjual</h2>
-									<ul>
-										<li>Setelah Penjualan 10 produk pertama dengan peringkat yang baik anda dapat mengajukan penghapusan batas penjualan dengan masuk ke menu pusat bantuan</li>
-										<li>Dapatkan Komentar atau respon pelanggan</li>
-										<li>Kepuasan anda sebagai penjual dan penyedia layanan jasa</li>
-									</ul>
-								</div>
+							<div class="col-md-offset-6">
+								<img src="https://syoobe.netlify.app/public/images/vector_image/vector1.jpg" class="img-responsive">
+							</div>
+						</div>
+
+						<br><br><br>
+
+						<div class="row">
+							<div class="col-md-8">
+								<img src="https://syoobe.netlify.app/public/images/vector_image/vector6.jpg" class="img-responsive">
+							</div>
+							<div class="col-md-offset-8">
+								<h2>Semua hal yang anda dapatkan setelah produk, unduh instant dan layanan jasa anda terjual</h2>
+								<ul>
+									<li>Setelah Penjualan 10 produk pertama dengan peringkat yang baik anda dapat mengajukan penghapusan batas penjualan dengan masuk ke menu pusat bantuan</li>
+									<li>Dapatkan Komentar atau respon pelanggan</li>
+									<li>Kepuasan anda sebagai penjual dan penyedia layanan jasa</li>
+								</ul>
 							</div>
 						</div>
 
