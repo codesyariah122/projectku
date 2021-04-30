@@ -8,9 +8,9 @@ new Vue({
 			content: "",
 			style: {
 				'font-size': '16px',
-				'margin-top': '-2rem',
+				'margin-top': '-2.5rem',
 				'color': '#000',
-				'text-align': 'center'
+				'text-align': 'left'
 			}
 		}
 	},
