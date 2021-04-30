@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
 @font-face {
   font-family: "SpringSakura";
-  src: local("SpringSakura"), url("https://ind.syoobe.com/public/fonts/SpringSakura-3z1m8.woff") format("woff");
+  src: local("SpringSakura"), url("https://codesyariah122.github.io/assets/fonts/SpringSakura-3z1m8.woff") format("woff");
 }
 @font-face {
   font-family: "Reey Regular";
@@ -67,7 +67,7 @@ main > nav {
     display: block;
     padding: .125rem 0;
     color: #B3B6B8;
-    transition: all 50ms ease-in-out; /* ÃƒÂ°Ã…Â¸Ã¢â‚¬â„¢Ã‚Â¡ This small transition makes setting of the active state smooth */
+    transition: all 50ms ease-in-out; /* Ã°Å¸â€™Â¡ This small transition makes setting of the active state smooth */
     font-size: 18px;
   }
 
@@ -153,6 +153,7 @@ main > nav {
     position: sticky;
     top: 35;
   }
+
   #points--elektronik {
     position: sticky;
     top: 35;
@@ -310,7 +311,7 @@ main > nav {
     /*clip-path: polygon(50% 0%, 100% 0, 100% 43%, 94% 78%, 68% 100%, 32% 100%, 6% 78%, 0% 43%, 17% 12%);*/
     /*clip-path: polygon(55% 0, 100% 0, 100% 43%, 94% 78%, 68% 100%, 0 100%, 0 47%, 0 0, 16% 0);*/
     /*min-width: 105vw;*/
-    min-height: 500px; 
+    min-height: 600px; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -515,24 +516,6 @@ main > nav {
       margin-top: -7rem;
       z-index: 1;
     }
-    #footer-data{
-      /*background: rgba(209, 211, 213, 0.5);
-      box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.9);*/
-      margin-top: 3rem;
-      height: 2vh;
-      color: #fff;
-
-    }
-    #footer-data h1, h2{
-       /*padding: 10px;*/
-       color: #737576;
-       text-align: center;
-    }
-    #footer-data img{
-     width: 110px;
-     height: 50px;
-     margin-top: 3rem;
-    }
 
     #myBtn {
       display: none;
@@ -676,25 +659,6 @@ main > nav {
       margin-top: 2rem;
       width: 100%;
     }
-     #footer-data{
-      /*background: rgba(209, 211, 213, 0.5);
-      box-shadow: 0 2px 2px -1px rgba(0, 0, 0, 0.9);*/
-      margin-top: 5rem;
-      height: 15vh;
-      color: #fff;
-
-    }
-    #footer-data h1, h2{
-       /*padding: 10px;*/
-       color: #737576;
-       text-align: center;
-       margin-top: -5rem;
-    }
-    #footer-data img{
-     width: 110px;
-     height: 50px;
-     margin-top: 15rem;
-     margin-left: 30rem;
-    }
+     
 
   }
