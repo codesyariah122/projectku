@@ -3,7 +3,6 @@ new Vue({
 	data: {
 		date: new Date(),
 		footer: {
-			logo: "public/images/vector_image/logo_syoobe_become_seller.jpg",
 			year: "",
 			content: "",
 			style: {
